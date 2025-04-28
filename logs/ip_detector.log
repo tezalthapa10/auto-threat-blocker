@@ -1,0 +1,487 @@
+2025-04-26 22:45:54,092 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 22:45:54,095 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 22:45:54,186 - ip_detector - INFO - Found 4 total matching documents
+2025-04-26 22:45:54,186 - ip_detector - INFO - Processing 4 documents
+2025-04-26 22:45:54,187 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:45:54,188 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:45:54,188 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:45:54,189 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:45:54,189 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-26 22:49:50,998 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 22:49:51,001 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 22:49:51,038 - ip_detector - INFO - Found 4 total matching documents
+2025-04-26 22:49:51,038 - ip_detector - INFO - Processing 4 documents
+2025-04-26 22:49:51,040 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:49:51,040 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:49:51,041 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:49:51,041 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:49:51,042 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-26 23:18:37,992 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 23:18:37,994 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 23:18:38,013 - ip_detector - INFO - Found 4 total matching documents
+2025-04-26 23:18:38,013 - ip_detector - INFO - Processing 4 documents
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 07:32:20,360 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 07:32:20,364 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 07:32:20,488 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 07:32:20,489 - ip_detector - INFO - Processing 4 documents
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 07:32:20,490 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 14:49:45,004 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 14:49:45,009 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 14:49:45,146 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 14:49:45,146 - ip_detector - INFO - Processing 4 documents
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 14:58:28,231 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 14:58:28,234 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 14:58:28,269 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 14:58:28,269 - ip_detector - INFO - Processing 4 documents
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:58:28,271 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 15:18:58,335 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 15:18:58,335 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 15:18:58,381 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 15:18:58,381 - ip_detector - INFO - Processing 4 documents
+2025-04-27 15:18:58,382 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 15:18:58,382 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 15:18:58,382 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 15:18:58,382 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 15:18:58,382 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 19:14:09,980 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 19:14:09,980 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 19:14:10,076 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 19:14:10,076 - ip_detector - INFO - Processing 4 documents
+2025-04-27 19:14:10,077 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 19:14:10,077 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 19:14:10,077 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 19:14:10,077 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 19:14:10,077 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 19:16:05,091 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 19:16:05,091 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 19:16:05,110 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 19:16:05,110 - ip_detector - INFO - Processing 4 documents
+2025-04-27 19:16:05,111 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 19:16:05,111 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 19:16:05,111 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 19:16:05,111 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 19:16:05,111 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 20:55:42,374 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 20:55:42,375 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 20:55:42,403 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 20:55:42,403 - ip_detector - INFO - Processing 4 documents
+2025-04-27 20:55:42,404 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 20:55:42,404 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 20:55:42,404 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 20:55:42,404 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 20:55:42,404 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 20:57:19,729 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 20:57:19,729 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 20:57:19,755 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 20:57:19,755 - ip_detector - INFO - Processing 4 documents
+2025-04-27 20:57:19,755 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 20:57:19,756 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 20:57:19,756 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 20:57:19,756 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 20:57:19,756 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 20:59:18,482 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 20:59:18,483 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 20:59:18,502 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 20:59:18,502 - ip_detector - INFO - Processing 4 documents
+2025-04-27 20:59:18,503 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 20:59:18,503 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 20:59:18,503 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 20:59:18,503 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 20:59:18,503 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 21:00:23,280 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 21:00:23,280 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 21:00:23,393 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 21:00:23,393 - ip_detector - INFO - Processing 4 documents
+2025-04-27 21:00:23,394 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:00:23,394 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:00:23,394 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:00:23,394 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:00:23,394 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 21:15:06,567 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 21:15:06,569 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 21:15:06,596 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 21:15:06,596 - ip_detector - INFO - Processing 4 documents
+2025-04-27 21:15:06,597 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:15:06,597 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:15:06,597 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:15:06,597 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:15:06,597 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 21:16:11,308 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 21:16:11,308 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 21:16:11,337 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 21:16:11,337 - ip_detector - INFO - Processing 4 documents
+2025-04-27 21:16:11,337 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:16:11,338 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:16:11,338 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:16:11,338 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:16:11,338 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 21:54:45,271 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 21:54:45,271 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 21:54:45,289 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 21:54:45,289 - ip_detector - INFO - Processing 4 documents
+2025-04-27 21:54:45,289 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:54:45,289 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:54:45,289 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:54:45,289 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:54:45,289 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 21:56:26,058 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 21:56:26,058 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 21:56:26,072 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 21:56:26,072 - ip_detector - INFO - Processing 4 documents
+2025-04-27 21:56:26,072 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:56:26,072 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:56:26,073 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:56:26,073 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:56:26,073 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 21:57:29,753 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 21:57:29,753 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 21:57:29,768 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 21:57:29,768 - ip_detector - INFO - Processing 4 documents
+2025-04-27 21:57:29,768 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:57:29,768 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 21:57:29,768 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:57:29,768 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 21:57:29,768 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 22:34:24,335 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 22:34:24,335 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 22:34:24,349 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 22:34:24,349 - ip_detector - INFO - Processing 4 documents
+2025-04-27 22:34:24,350 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 22:34:24,350 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 22:34:24,350 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 22:34:24,350 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 22:34:24,350 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 23:12:00,989 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 23:12:00,990 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 23:12:01,011 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 23:12:01,011 - ip_detector - INFO - Processing 4 documents
+2025-04-27 23:12:01,011 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 23:12:01,011 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 23:12:01,011 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 23:12:01,011 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 23:12:01,012 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 12:53:58,427 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 12:53:58,429 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 12:53:58,511 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 12:53:58,512 - ip_detector - INFO - Processing 4 documents
+2025-04-28 12:53:58,512 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 12:53:58,512 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 12:53:58,512 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 12:53:58,512 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 12:53:58,512 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 13:09:05,641 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 13:09:05,641 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 13:09:05,662 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 13:09:05,662 - ip_detector - INFO - Processing 4 documents
+2025-04-28 13:09:05,662 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:09:05,663 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:09:05,663 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:09:05,663 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:09:05,663 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 13:11:33,841 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 13:11:33,842 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 13:11:33,858 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 13:11:33,859 - ip_detector - INFO - Processing 4 documents
+2025-04-28 13:11:33,859 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:11:33,859 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:11:33,859 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:11:33,859 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:11:33,859 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 13:14:32,536 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 13:14:32,537 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 13:14:32,613 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 13:14:32,613 - ip_detector - INFO - Processing 4 documents
+2025-04-28 13:14:32,613 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:14:32,614 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:14:32,614 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:14:32,614 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:14:32,614 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 13:42:57,039 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 13:42:57,040 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 13:42:57,127 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 13:42:57,127 - ip_detector - INFO - Processing 4 documents
+2025-04-28 13:42:57,127 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:42:57,127 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 13:42:57,127 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:42:57,127 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 13:42:57,128 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 14:39:22,837 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 14:39:22,838 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 14:39:22,879 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 14:39:22,879 - ip_detector - INFO - Processing 4 documents
+2025-04-28 14:39:22,880 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 14:39:22,880 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 14:39:22,880 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 14:39:22,880 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 14:39:22,880 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 14:59:24,936 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 14:59:24,937 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 14:59:25,071 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 14:59:25,071 - ip_detector - INFO - Processing 4 documents
+2025-04-28 14:59:25,074 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 14:59:25,074 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 14:59:25,075 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 14:59:25,075 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 14:59:25,075 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:00:26,707 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:00:26,707 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:00:26,746 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:00:26,746 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:00:26,747 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:00:26,747 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:00:26,747 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:00:26,747 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:00:26,747 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:01:28,367 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:01:28,368 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:01:28,415 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:01:28,416 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:01:28,417 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:01:28,418 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:01:28,418 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:01:28,418 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:01:28,418 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:02:30,213 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:02:30,214 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:02:30,245 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:02:30,245 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:02:30,245 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:02:30,245 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:02:30,246 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:02:30,246 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:02:30,247 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:02:39,137 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:02:39,138 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:02:39,161 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:02:39,161 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:02:39,161 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:02:39,162 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:02:39,162 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:02:39,162 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:02:39,162 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:03:40,529 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:03:40,529 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:03:40,567 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:03:40,567 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:03:40,567 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:03:40,568 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:03:40,569 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:03:40,569 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:03:40,570 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:04:41,935 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:04:41,935 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:04:41,974 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:04:41,975 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:04:41,976 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:04:41,976 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:04:41,976 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:04:41,977 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:04:41,977 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:44:20,812 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:44:20,813 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:44:20,932 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:44:20,932 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:44:20,934 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:44:27,202 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:44:27,204 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:44:27,241 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:44:27,241 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:45:28,997 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:45:29,000 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:45:29,109 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:45:29,109 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:45:29,110 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:45:29,111 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:45:29,111 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:45:29,111 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:45:29,112 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:46:31,195 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:46:31,198 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:46:31,330 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:46:31,331 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:46:31,332 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:46:31,334 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:46:31,335 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:46:31,336 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:46:31,336 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:47:33,027 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:47:33,033 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:47:33,154 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:47:33,154 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:47:33,156 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:47:33,157 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:47:33,157 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:47:33,158 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:47:33,158 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:48:34,877 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:48:34,879 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:48:35,002 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:48:35,002 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:48:35,003 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:48:35,005 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:48:35,005 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:48:35,005 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:48:35,006 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:49:36,546 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:49:36,567 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:49:36,995 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:49:36,995 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:49:37,014 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:49:37,040 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:49:37,041 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:49:37,041 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:49:37,041 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:50:40,185 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:50:40,203 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:50:40,726 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:50:40,726 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:50:40,737 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:50:40,748 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:50:40,749 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:50:40,749 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 15:50:40,749 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 15:52:18,791 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:52:18,797 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:52:19,107 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:52:19,108 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:52:19,108 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:52:19,122 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:52:19,126 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 15:53:21,455 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:53:21,482 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:53:21,976 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:53:21,976 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:53:21,977 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:53:21,995 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:53:21,995 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 15:54:24,415 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:54:24,420 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:54:24,513 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:54:24,513 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:54:24,515 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:54:24,517 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:54:24,517 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 15:55:14,602 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:55:14,602 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:55:14,619 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:55:14,620 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:55:14,620 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:55:14,690 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:55:14,690 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 15:56:17,061 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:56:17,062 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:56:17,095 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:56:17,095 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:56:17,095 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:56:17,096 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:56:17,096 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 15:57:41,188 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:57:41,190 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:57:41,222 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:57:41,222 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:57:41,222 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:57:41,223 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:57:41,223 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 15:58:42,799 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:58:42,799 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:58:42,826 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:58:42,826 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:58:42,827 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:58:42,827 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:58:42,827 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 15:59:44,252 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 15:59:44,253 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 15:59:44,282 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 15:59:44,283 - ip_detector - INFO - Processing 4 documents
+2025-04-28 15:59:44,283 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:59:44,284 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 15:59:44,284 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 16:00:32,630 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:00:32,630 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:00:32,648 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:00:32,648 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:00:32,648 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:00:32,699 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:00:32,699 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 16:01:34,204 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:01:34,204 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:01:34,237 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:01:34,237 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:01:34,237 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:01:34,238 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:01:34,238 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 16:02:36,552 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:02:36,553 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:02:36,576 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:02:36,577 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:02:36,577 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:02:36,577 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:02:36,577 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 16:03:37,952 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:03:37,952 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:03:37,993 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:03:37,993 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:03:37,993 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:03:37,994 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:03:37,994 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 16:04:39,672 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:04:39,674 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:04:39,704 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:04:39,705 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:04:39,705 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:04:39,732 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:04:39,732 - ip_detector - INFO - Detected 1 unique suspicious IP addresses
+2025-04-28 16:17:31,440 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:17:31,440 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:17:31,451 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:17:31,451 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:17:31,452 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:17:31,452 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:17:31,452 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:17:31,452 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:17:31,452 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 16:18:32,912 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:18:32,913 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:18:32,929 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:18:32,929 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:18:32,929 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:18:32,929 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:18:32,929 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:18:32,929 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:18:32,929 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 16:19:36,234 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:19:36,236 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:19:36,253 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:19:36,254 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:19:36,254 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:19:36,254 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:19:36,254 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:19:36,254 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:19:36,254 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-28 16:20:24,902 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-28 16:20:24,903 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-28 16:20:24,915 - ip_detector - INFO - Found 4 total matching documents
+2025-04-28 16:20:24,915 - ip_detector - INFO - Processing 4 documents
+2025-04-28 16:20:24,916 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:20:24,916 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-28 16:20:24,916 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:20:24,916 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-28 16:20:24,916 - ip_detector - INFO - Detected 3 unique suspicious IP addresses

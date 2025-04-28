@@ -1,0 +1,65 @@
+2025-04-28 15:44:20,934 - ip_blocker - INFO - Attempting to block IP: 203.0.113.1
+2025-04-28 15:44:27,184 - ip_blocker - INFO - Successfully blocked IP: 203.0.113.1
+2025-04-28 15:44:27,201 - ip_blocker - INFO - {"action": "block", "ip": "203.0.113.1", "reason": "Suspicious activity", "timestamp": "2025-04-28T15:44:27.201638", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 15:44:27,203 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:44:27,204 - ip_blocker - INFO - Attempting to block IP: 127.0.0.1
+2025-04-28 15:44:27,240 - ip_blocker - INFO - Successfully blocked IP: 127.0.0.1
+2025-04-28 15:44:27,240 - ip_blocker - INFO - {"action": "block", "ip": "127.0.0.1", "reason": "Suspicious activity", "timestamp": "2025-04-28T15:44:27.240854", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 15:44:27,241 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:45:29,110 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:45:29,111 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:45:29,111 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:45:29,111 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:46:31,333 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:46:31,335 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:46:31,335 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:46:31,336 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:47:33,156 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:47:33,157 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:47:33,157 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:47:33,158 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:48:35,004 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:48:35,005 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:48:35,005 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:48:35,005 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:49:37,015 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:49:37,041 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:49:37,041 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:49:37,041 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:50:40,738 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:50:40,748 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:50:40,749 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:50:40,749 - ip_blocker - INFO - IP 127.0.0.1 is already blocked
+2025-04-28 15:52:19,112 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:52:19,123 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:53:21,977 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:53:21,995 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:54:24,516 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:54:24,517 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:55:14,620 - ip_blocker - INFO - Attempting to block IP: 203.0.113.1
+2025-04-28 15:55:14,688 - ip_blocker - INFO - IP 203.0.113.1 is already blocked in iptables
+2025-04-28 15:55:14,689 - ip_blocker - INFO - {"action": "block", "ip": "203.0.113.1", "reason": "Suspicious activity", "timestamp": "2025-04-28T15:55:14.689732", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 15:55:14,690 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:56:17,096 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:56:17,096 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:57:41,222 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:57:41,223 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:58:42,827 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:58:42,827 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:59:44,283 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 15:59:44,284 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:00:32,649 - ip_blocker - INFO - Attempting to block IP: 203.0.113.1
+2025-04-28 16:00:32,697 - ip_blocker - INFO - Successfully blocked IP: 203.0.113.1
+2025-04-28 16:00:32,699 - ip_blocker - INFO - {"action": "block", "ip": "203.0.113.1", "reason": "Suspicious activity", "timestamp": "2025-04-28T16:00:32.699099", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 16:00:32,699 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:01:34,237 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:01:34,238 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:02:36,577 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:02:36,577 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:03:37,994 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:03:37,994 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:04:39,706 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:04:39,732 - ip_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-28 16:20:28,227 - ip_blocker - INFO - Attempting to block IP: 20.171.29.23
+2025-04-28 16:20:38,457 - ip_blocker - INFO - Successfully blocked IP: 20.171.29.23
+2025-04-28 16:20:38,458 - ip_blocker - INFO - {"action": "block", "ip": "20.171.29.23", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T16:20:38.458222", "is_malicious": true, "event_type": "ip_block"}

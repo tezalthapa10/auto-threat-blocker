@@ -1,0 +1,241 @@
+2025-04-26 22:29:37,791 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:30:11,916 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:43:37,698 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:44:37,779 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:45:32,962 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:45:54,094 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-26 22:45:54,096 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:45:54,100 - file_detector - INFO - Scanning directory: /tmp
+2025-04-26 22:45:54,209 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-26 22:49:19,062 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:49:50,999 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-26 22:49:51,001 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:49:51,006 - file_detector - INFO - Scanning directory: /tmp
+2025-04-26 22:49:51,017 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-26 23:18:26,753 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 23:18:37,994 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-26 23:18:37,997 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 23:18:37,999 - file_detector - INFO - Scanning directory: /tmp
+2025-04-26 23:18:38,004 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 07:32:03,716 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 07:32:20,363 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 07:32:20,365 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 07:32:20,371 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 07:32:20,387 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 14:49:35,703 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:49:45,006 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 14:49:45,008 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:49:45,010 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 14:49:45,031 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 14:58:28,228 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:58:28,233 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 14:58:28,236 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:58:28,240 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 14:58:28,244 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 15:18:58,332 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 15:18:58,338 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 15:18:58,339 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 15:18:58,340 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 15:18:58,343 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 19:14:09,978 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 19:14:09,980 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 19:14:09,981 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 19:14:09,981 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 19:14:09,984 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 19:16:05,089 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 19:16:05,093 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 19:16:05,093 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 19:16:05,093 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 19:16:05,094 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 20:55:42,376 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 20:55:42,380 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 20:55:42,382 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 20:55:42,385 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 20:57:19,730 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 20:57:19,730 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 20:57:19,733 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 20:57:19,735 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 20:59:18,483 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 20:59:18,483 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 20:59:18,485 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 20:59:18,487 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 21:00:18,510 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 21:00:18,511 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 21:00:18,511 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 21:00:18,513 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 21:15:06,568 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 21:15:06,570 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 21:15:06,574 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 21:15:06,618 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 21:16:06,640 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 21:16:06,641 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 21:16:06,641 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 21:16:06,645 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 21:54:45,272 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 21:54:45,274 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 21:54:45,274 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 21:54:45,284 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 21:56:26,060 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 21:56:26,061 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 21:56:26,061 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 21:56:26,063 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 21:57:26,084 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 21:57:26,084 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 21:57:26,084 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 21:57:26,088 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 22:34:24,335 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 22:34:24,335 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 22:34:24,337 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 22:34:24,340 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 23:12:00,990 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 23:12:00,992 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-27 23:12:00,992 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 23:12:00,998 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 12:53:58,428 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 12:53:58,430 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 12:53:58,431 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 12:53:58,449 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 13:09:05,643 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 13:09:05,644 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 13:09:05,644 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 13:09:05,646 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 13:11:33,844 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 13:11:33,845 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 13:11:33,845 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 13:11:33,846 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 13:14:32,537 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 13:14:32,538 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 13:14:32,539 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 13:14:32,540 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 13:42:57,039 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 13:42:57,040 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 13:42:57,041 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 13:42:57,060 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 14:39:22,839 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 14:39:22,842 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 14:39:22,844 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 14:39:22,850 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 14:59:24,936 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 14:59:24,937 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 14:59:24,939 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 14:59:24,947 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:00:24,976 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:00:24,976 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:00:24,976 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:00:24,979 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:01:25,001 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:01:25,001 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:01:25,001 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:01:25,003 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:02:25,026 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:02:25,028 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:02:25,029 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:02:25,040 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:02:39,139 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:02:39,141 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:02:39,141 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:02:39,143 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:03:39,164 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:03:39,165 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:03:39,165 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:03:39,167 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:04:39,190 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:04:39,190 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:04:39,192 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:04:39,201 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:44:20,813 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:44:20,814 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:44:20,817 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:44:20,838 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:45:20,863 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:45:20,868 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:45:20,870 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:45:20,904 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:46:20,938 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:46:20,942 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:46:20,944 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:46:20,972 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:47:21,020 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:47:21,027 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:47:21,028 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:47:21,051 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:48:21,107 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:48:21,121 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:48:21,125 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:48:21,162 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:49:21,227 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:49:21,252 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:49:21,259 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:49:21,357 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:50:21,699 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:50:21,725 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:50:21,728 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:50:21,834 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:52:18,797 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:52:18,806 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:52:18,810 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:52:18,880 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:53:18,942 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:53:18,953 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:53:18,954 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:53:18,996 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:54:19,040 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:54:19,042 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:54:19,043 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:54:19,058 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:55:14,603 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:55:14,605 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:55:14,606 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:55:14,612 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:56:14,633 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:56:14,633 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:56:14,633 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:56:14,636 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:57:41,189 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:57:41,189 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:57:41,189 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:57:41,192 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:58:41,212 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:58:41,212 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:58:41,213 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:58:41,215 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 15:59:41,236 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 15:59:41,236 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 15:59:41,236 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 15:59:41,239 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:00:32,637 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:00:32,638 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:00:32,638 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:00:32,639 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:01:32,659 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:01:32,659 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:01:32,659 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:01:32,660 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:02:32,680 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:02:32,681 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:02:32,681 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:02:32,683 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:03:32,703 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:03:32,704 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:03:32,704 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:03:32,707 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:04:32,726 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:04:32,728 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:04:32,728 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:04:32,731 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:17:31,442 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:17:31,442 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:17:31,442 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:17:31,443 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:18:31,456 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:18:31,456 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:18:31,457 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:18:31,457 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:19:31,478 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:19:31,479 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:19:31,480 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:19:31,481 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-28 16:20:24,903 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-28 16:20:24,905 - file_detector - INFO - Scanning directory: /home/user/downloads
+2025-04-28 16:20:24,905 - file_detector - INFO - Scanning directory: /tmp
+2025-04-28 16:20:24,906 - file_detector - INFO - Completed file scan, found 0 suspicious files

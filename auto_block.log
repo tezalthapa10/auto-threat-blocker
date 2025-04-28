@@ -1,0 +1,259 @@
+2025-04-26 13:35:17,792 - root - ERROR - Failed to load configuration from config.yml: [Errno 2] No such file or directory: 'config.yml'
+2025-04-26 13:41:03,482 - root - ERROR - Failed to load configuration from config.yml: [Errno 2] No such file or directory: 'config.yml'
+2025-04-26 13:49:33,643 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 13:51:42,714 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 13:54:12,699 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 13:55:45,969 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 13:55:53,354 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 13:56:59,277 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 13:58:12,953 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 14:03:44,053 - main - ERROR - Error initializing components: name 'self' is not defined
+2025-04-26 20:43:29,878 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 20:43:52,932 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 20:47:32,179 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 20:48:32,268 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 20:51:08,487 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 21:15:02,735 - main - ERROR - Error initializing components: 'elasticsearch'
+2025-04-26 21:17:37,894 - main - ERROR - Error initializing components: 'url'
+2025-04-26 21:22:27,117 - main - ERROR - Error initializing components: 'url'
+2025-04-26 21:56:24,625 - main - ERROR - Error initializing components: Elasticsearch 'url' is missing in the configuration
+2025-04-26 21:59:40,539 - main - ERROR - Error initializing components: Elasticsearch 'url' is missing in the configuration
+2025-04-26 22:01:38,429 - main - ERROR - Error initializing components: Elasticsearch 'url' is missing in the configuration
+2025-04-26 22:03:18,885 - main - ERROR - Error initializing components: Elasticsearch 'url' is missing in the configuration
+2025-04-26 22:05:06,011 - main - ERROR - Error initializing components: Elasticsearch 'url' is missing in the configuration
+2025-04-26 22:28:03,814 - main - ERROR - Error initializing components: Elasticsearch 'url' is missing in the configuration
+2025-04-26 22:29:37,791 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:29:37,793 - file_quarantine - ERROR - Failed to create quarantine directory: [Errno 13] Permission denied: '/var/quarantine'
+2025-04-26 22:29:37,794 - main - ERROR - Error initializing components: [Errno 13] Permission denied: '/var/quarantine'
+2025-04-26 22:30:11,916 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:30:11,917 - file_quarantine - INFO - Created quarantine directory: /var/quarantine
+2025-04-26 22:30:11,917 - main - INFO - All components initialized successfully
+2025-04-26 22:43:37,698 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:43:37,700 - main - INFO - All components initialized successfully
+2025-04-26 22:44:37,779 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:44:37,780 - main - INFO - All components initialized successfully
+2025-04-26 22:45:32,962 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:45:32,962 - main - INFO - All components initialized successfully
+2025-04-26 22:45:32,962 - main - INFO - AutoThreatBlocker is now running...
+2025-04-26 22:45:32,963 - main - INFO - Running threat blocker logic...
+2025-04-26 22:45:37,963 - main - INFO - Running threat blocker logic...
+2025-04-26 22:45:42,965 - main - INFO - Running threat blocker logic...
+2025-04-26 22:45:47,966 - main - INFO - Running threat blocker logic...
+2025-04-26 22:45:52,967 - main - INFO - Running threat blocker logic...
+2025-04-26 22:45:54,087 - main - INFO - AutoThreatBlocker stopped manually.
+2025-04-26 22:45:54,088 - main - INFO - Starting Auto Threat Blocker
+2025-04-26 22:45:54,089 - main - INFO - Running IP threat detection cycle
+2025-04-26 22:45:54,090 - main - INFO - Running file threat detection cycle
+2025-04-26 22:45:54,092 - main - INFO - Auto Threat Blocker started
+2025-04-26 22:45:54,092 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 22:45:54,094 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-26 22:45:54,095 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 22:45:54,096 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:45:54,100 - file_detector - INFO - Scanning directory: /tmp
+2025-04-26 22:45:54,186 - ip_detector - INFO - Found 4 total matching documents
+2025-04-26 22:45:54,186 - ip_detector - INFO - Processing 4 documents
+2025-04-26 22:45:54,187 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:45:54,188 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:45:54,188 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:45:54,189 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:45:54,189 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-26 22:45:54,190 - main - INFO - Processing suspicious IP: 127.0.0.1
+2025-04-26 22:45:54,190 - main - INFO - Checking IP with AbuseIPDB: 127.0.0.1
+2025-04-26 22:45:54,209 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-26 22:45:54,209 - main - INFO - File monitoring sleeping for 3600 seconds
+2025-04-26 22:45:56,085 - main - INFO - Checking IP with VirusTotal: 127.0.0.1
+2025-04-26 22:45:56,087 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-26 22:45:56,087 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-04-26 22:45:56,088 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-04-26 22:45:56,782 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-04-26 22:45:56,783 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-26 22:45:56,784 - main - INFO - IP monitoring sleeping for 300 seconds
+2025-04-26 22:47:59,281 - main - INFO - Received shutdown signal
+2025-04-26 22:47:59,282 - main - INFO - Stopping Auto Threat Blocker
+2025-04-26 22:48:00,252 - main - INFO - Auto Threat Blocker stopped
+2025-04-26 22:49:19,062 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:49:19,063 - main - INFO - All components initialized successfully
+2025-04-26 22:49:19,063 - main - INFO - AutoThreatBlocker is now running...
+2025-04-26 22:49:19,063 - main - INFO - Running threat blocker logic...
+2025-04-26 22:49:24,064 - main - INFO - Running threat blocker logic...
+2025-04-26 22:49:29,066 - main - INFO - Running threat blocker logic...
+2025-04-26 22:49:34,066 - main - INFO - Running threat blocker logic...
+2025-04-26 22:49:39,068 - main - INFO - Running threat blocker logic...
+2025-04-26 22:49:44,069 - main - INFO - Running threat blocker logic...
+2025-04-26 22:49:49,071 - main - INFO - Running threat blocker logic...
+2025-04-26 22:49:50,993 - main - INFO - AutoThreatBlocker stopped manually.
+2025-04-26 22:49:50,994 - main - INFO - Starting Auto Threat Blocker
+2025-04-26 22:49:50,995 - main - INFO - Running IP threat detection cycle
+2025-04-26 22:49:50,996 - main - INFO - Running file threat detection cycle
+2025-04-26 22:49:50,996 - main - INFO - Auto Threat Blocker started
+2025-04-26 22:49:50,998 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 22:49:50,999 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-26 22:49:51,001 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 22:49:51,001 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 22:49:51,006 - file_detector - INFO - Scanning directory: /tmp
+2025-04-26 22:49:51,017 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-26 22:49:51,018 - main - INFO - File monitoring sleeping for 3600 seconds
+2025-04-26 22:49:51,038 - ip_detector - INFO - Found 4 total matching documents
+2025-04-26 22:49:51,038 - ip_detector - INFO - Processing 4 documents
+2025-04-26 22:49:51,040 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:49:51,040 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 22:49:51,041 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:49:51,041 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 22:49:51,042 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-26 22:49:51,042 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-04-26 22:49:51,043 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-04-26 22:49:51,757 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-04-26 22:49:51,759 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-26 22:49:51,761 - main - INFO - Processing suspicious IP: 127.0.0.1
+2025-04-26 22:49:51,761 - main - INFO - Checking IP with AbuseIPDB: 127.0.0.1
+2025-04-26 22:49:53,657 - main - INFO - Checking IP with VirusTotal: 127.0.0.1
+2025-04-26 22:49:53,660 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-26 22:49:53,660 - main - INFO - IP monitoring sleeping for 300 seconds
+2025-04-26 22:50:43,341 - main - INFO - Received shutdown signal
+2025-04-26 22:50:43,342 - main - INFO - Stopping Auto Threat Blocker
+2025-04-26 22:50:44,042 - main - INFO - Auto Threat Blocker stopped
+2025-04-26 23:18:26,753 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 23:18:26,754 - main - INFO - All components initialized successfully
+2025-04-26 23:18:26,754 - main - INFO - AutoThreatBlocker is now running...
+2025-04-26 23:18:26,754 - main - INFO - Running threat blocker logic...
+2025-04-26 23:18:31,754 - main - INFO - Running threat blocker logic...
+2025-04-26 23:18:36,756 - main - INFO - Running threat blocker logic...
+2025-04-26 23:18:37,990 - main - INFO - AutoThreatBlocker stopped manually.
+2025-04-26 23:18:37,991 - main - INFO - Starting Auto Threat Blocker
+2025-04-26 23:18:37,991 - main - INFO - Running IP threat detection cycle
+2025-04-26 23:18:37,992 - main - INFO - Running file threat detection cycle
+2025-04-26 23:18:37,992 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 23:18:37,994 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-26 23:18:37,994 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 23:18:37,993 - main - INFO - Auto Threat Blocker started
+2025-04-26 23:18:37,997 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-26 23:18:37,999 - file_detector - INFO - Scanning directory: /tmp
+2025-04-26 23:18:38,004 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-26 23:18:38,004 - main - INFO - File monitoring sleeping for 3600 seconds
+2025-04-26 23:18:38,013 - ip_detector - INFO - Found 4 total matching documents
+2025-04-26 23:18:38,013 - ip_detector - INFO - Processing 4 documents
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-26 23:18:38,014 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-26 23:18:38,015 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-04-26 23:18:38,015 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-04-26 23:18:38,752 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-04-26 23:18:38,753 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-26 23:18:38,753 - main - INFO - Processing suspicious IP: 127.0.0.1
+2025-04-26 23:18:38,753 - main - INFO - Checking IP with AbuseIPDB: 127.0.0.1
+2025-04-26 23:18:40,275 - main - INFO - Checking IP with VirusTotal: 127.0.0.1
+2025-04-26 23:18:40,276 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-26 23:18:40,276 - main - INFO - IP monitoring sleeping for 300 seconds
+2025-04-26 23:18:56,989 - main - INFO - Received shutdown signal
+2025-04-26 23:18:56,989 - main - INFO - Stopping Auto Threat Blocker
+2025-04-26 23:18:57,282 - main - INFO - Auto Threat Blocker stopped
+2025-04-27 07:32:03,716 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 07:32:03,722 - main - INFO - All components initialized successfully
+2025-04-27 07:32:03,723 - main - INFO - AutoThreatBlocker is now running...
+2025-04-27 07:32:03,723 - main - INFO - Running threat blocker logic...
+2025-04-27 07:32:08,724 - main - INFO - Running threat blocker logic...
+2025-04-27 07:32:13,725 - main - INFO - Running threat blocker logic...
+2025-04-27 07:32:18,725 - main - INFO - Running threat blocker logic...
+2025-04-27 07:32:20,356 - main - INFO - AutoThreatBlocker stopped manually.
+2025-04-27 07:32:20,357 - main - INFO - Starting Auto Threat Blocker
+2025-04-27 07:32:20,358 - main - INFO - Running IP threat detection cycle
+2025-04-27 07:32:20,359 - main - INFO - Running file threat detection cycle
+2025-04-27 07:32:20,360 - main - INFO - Auto Threat Blocker started
+2025-04-27 07:32:20,360 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 07:32:20,363 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 07:32:20,364 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 07:32:20,365 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 07:32:20,371 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 07:32:20,387 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 07:32:20,388 - main - INFO - File monitoring sleeping for 3600 seconds
+2025-04-27 07:32:20,488 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 07:32:20,489 - ip_detector - INFO - Processing 4 documents
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 07:32:20,489 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 07:32:20,490 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 07:32:20,490 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-04-27 07:32:20,490 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-04-27 07:32:20,964 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-04-27 07:32:20,967 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-27 07:32:20,968 - main - INFO - Processing suspicious IP: 127.0.0.1
+2025-04-27 07:32:20,968 - main - INFO - Checking IP with AbuseIPDB: 127.0.0.1
+2025-04-27 07:32:22,513 - main - INFO - Checking IP with VirusTotal: 127.0.0.1
+2025-04-27 07:32:22,515 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-27 07:32:22,515 - main - INFO - IP monitoring sleeping for 300 seconds
+2025-04-27 07:32:31,805 - main - INFO - Received shutdown signal
+2025-04-27 07:32:31,805 - main - INFO - Stopping Auto Threat Blocker
+2025-04-27 07:32:32,520 - main - INFO - Auto Threat Blocker stopped
+2025-04-27 14:49:35,703 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:49:35,710 - main - INFO - All components initialized successfully
+2025-04-27 14:49:35,712 - main - INFO - AutoThreatBlocker is now running...
+2025-04-27 14:49:35,712 - main - INFO - Running threat blocker logic...
+2025-04-27 14:49:40,713 - main - INFO - Running threat blocker logic...
+2025-04-27 14:49:45,000 - main - INFO - AutoThreatBlocker stopped manually.
+2025-04-27 14:49:45,001 - main - INFO - Starting Auto Threat Blocker
+2025-04-27 14:49:45,003 - main - INFO - Running IP threat detection cycle
+2025-04-27 14:49:45,004 - main - INFO - Running file threat detection cycle
+2025-04-27 14:49:45,006 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 14:49:45,004 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 14:49:45,008 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:49:45,005 - main - INFO - Auto Threat Blocker started
+2025-04-27 14:49:45,009 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 14:49:45,010 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 14:49:45,031 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 14:49:45,032 - main - INFO - File monitoring sleeping for 3600 seconds
+2025-04-27 14:49:45,146 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 14:49:45,146 - ip_detector - INFO - Processing 4 documents
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:49:45,147 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 14:49:45,147 - main - INFO - Processing suspicious IP: 127.0.0.1
+2025-04-27 14:49:45,148 - main - INFO - Checking IP with AbuseIPDB: 127.0.0.1
+2025-04-27 14:49:45,952 - main - INFO - Received shutdown signal
+2025-04-27 14:49:45,952 - main - INFO - Stopping Auto Threat Blocker
+2025-04-27 14:49:47,064 - main - INFO - Checking IP with VirusTotal: 127.0.0.1
+2025-04-27 14:49:47,066 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-27 14:49:47,066 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-04-27 14:49:47,066 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-04-27 14:49:47,132 - main - INFO - Received shutdown signal
+2025-04-27 14:49:47,133 - main - INFO - Stopping Auto Threat Blocker
+2025-04-27 14:49:47,784 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-04-27 14:49:47,785 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-27 14:49:47,785 - main - INFO - IP monitoring sleeping for 300 seconds
+2025-04-27 14:49:47,786 - main - INFO - Auto Threat Blocker stopped
+2025-04-27 14:58:28,228 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:58:28,228 - main - INFO - All components initialized successfully
+2025-04-27 14:58:28,229 - main - INFO - Starting Auto Threat Blocker
+2025-04-27 14:58:28,230 - main - INFO - Running IP threat detection cycle
+2025-04-27 14:58:28,231 - main - INFO - Running file threat detection cycle
+2025-04-27 14:58:28,231 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-27 14:58:28,231 - main - INFO - Auto Threat Blocker started
+2025-04-27 14:58:28,233 - file_detector - INFO - Starting file scan in 2 directories
+2025-04-27 14:58:28,234 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-27 14:58:28,236 - file_detector - WARNING - Directory does not exist: /home/user/downloads
+2025-04-27 14:58:28,240 - file_detector - INFO - Scanning directory: /tmp
+2025-04-27 14:58:28,244 - file_detector - INFO - Completed file scan, found 0 suspicious files
+2025-04-27 14:58:28,245 - main - INFO - File monitoring sleeping for 3600 seconds
+2025-04-27 14:58:28,269 - ip_detector - INFO - Found 4 total matching documents
+2025-04-27 14:58:28,269 - ip_detector - INFO - Processing 4 documents
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:58:28,270 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-27 14:58:28,271 - ip_detector - INFO - Detected 2 unique suspicious IP addresses
+2025-04-27 14:58:28,271 - main - INFO - Processing suspicious IP: 127.0.0.1
+2025-04-27 14:58:28,271 - main - INFO - Checking IP with AbuseIPDB: 127.0.0.1
+2025-04-27 14:58:30,155 - main - INFO - Checking IP with VirusTotal: 127.0.0.1
+2025-04-27 14:58:30,156 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-27 14:58:30,157 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-04-27 14:58:30,157 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-04-27 14:58:30,869 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-04-27 14:58:30,871 - virustotal - ERROR - Error getting IP information from VirusTotal: Header part ({'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) from ('x-apikey', {'enabled': True, 'api_key': '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69', 'scan_timeout': 60}) must be of type str or bytes, not <class 'dict'>
+2025-04-27 14:58:30,871 - main - INFO - IP monitoring sleeping for 300 seconds
+2025-04-27 14:59:15,390 - main - INFO - Received shutdown signal
+2025-04-27 14:59:15,391 - main - INFO - Stopping Auto Threat Blocker
+2025-04-27 14:59:16,263 - main - INFO - Auto Threat Blocker stopped

@@ -1,0 +1,32 @@
+2025-04-24 22:42:39,425 - auto_blocker - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-24 22:42:39,426 - auto_blocker - INFO - Executing query for 'Failed password' patterns...
+2025-04-24 22:42:39,681 - auto_blocker - INFO - Found 4 total matching documents
+2025-04-24 22:42:39,681 - auto_blocker - INFO - Processing 4 documents
+2025-04-24 22:42:39,682 - auto_blocker - INFO - Attempting to block IP: 203.0.113.1
+2025-04-24 22:42:39,779 - auto_blocker - INFO - Successfully blocked IP: 203.0.113.1
+2025-04-24 22:42:39,780 - auto_blocker - ERROR - Refusing to block local/private IP address: 127.0.0.1
+2025-04-24 22:42:39,780 - auto_blocker - INFO - Blocked 2 unique IP addresses
+2025-04-24 22:42:53,767 - auto_blocker - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-24 22:42:53,767 - auto_blocker - INFO - Executing query for 'Failed password' patterns...
+2025-04-24 22:42:53,787 - auto_blocker - INFO - Found 4 total matching documents
+2025-04-24 22:42:53,787 - auto_blocker - INFO - Processing 4 documents
+2025-04-24 22:42:53,787 - auto_blocker - INFO - Attempting to block IP: 203.0.113.1
+2025-04-24 22:42:53,808 - auto_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-24 22:42:53,808 - auto_blocker - ERROR - Refusing to block local/private IP address: 127.0.0.1
+2025-04-24 22:42:53,809 - auto_blocker - INFO - Blocked 2 unique IP addresses
+2025-04-26 21:39:11,497 - auto_blocker - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 21:39:11,499 - auto_blocker - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 21:39:11,874 - auto_blocker - INFO - Found 4 total matching documents
+2025-04-26 21:39:11,874 - auto_blocker - INFO - Processing 4 documents
+2025-04-26 21:39:11,875 - auto_blocker - INFO - Attempting to block IP: 203.0.113.1
+2025-04-26 21:39:11,962 - auto_blocker - INFO - Successfully blocked IP: 203.0.113.1
+2025-04-26 21:39:11,962 - auto_blocker - ERROR - Refusing to block local/private IP address: 127.0.0.1
+2025-04-26 21:39:11,962 - auto_blocker - INFO - Blocked 2 unique IP addresses
+2025-04-26 21:39:24,284 - auto_blocker - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-26 21:39:24,284 - auto_blocker - INFO - Executing query for 'Failed password' patterns...
+2025-04-26 21:39:24,317 - auto_blocker - INFO - Found 4 total matching documents
+2025-04-26 21:39:24,317 - auto_blocker - INFO - Processing 4 documents
+2025-04-26 21:39:24,317 - auto_blocker - INFO - Attempting to block IP: 203.0.113.1
+2025-04-26 21:39:24,335 - auto_blocker - INFO - IP 203.0.113.1 is already blocked
+2025-04-26 21:39:24,335 - auto_blocker - ERROR - Refusing to block local/private IP address: 127.0.0.1
+2025-04-26 21:39:24,335 - auto_blocker - INFO - Blocked 2 unique IP addresses

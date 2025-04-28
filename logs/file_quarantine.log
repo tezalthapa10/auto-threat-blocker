@@ -1,0 +1,2 @@
+2025-04-26 22:29:37,793 - file_quarantine - ERROR - Failed to create quarantine directory: [Errno 13] Permission denied: '/var/quarantine'
+2025-04-26 22:30:11,917 - file_quarantine - INFO - Created quarantine directory: /var/quarantine

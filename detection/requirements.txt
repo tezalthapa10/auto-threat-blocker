@@ -1,0 +1,6 @@
+elasticsearch
+pymongo
+python-dotenv
+requests
+schedule
+dnspython

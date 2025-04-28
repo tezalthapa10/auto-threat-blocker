@@ -1,0 +1,52 @@
+monitoring:
+  network:
+    enabled: true
+    interfaces:
+      - eth0
+    log_file: /var/log/syslog
+  file:
+    enabled: true
+    directories:
+      - /home/user/downloads
+      - /tmp
+    scan_interval: 60
+
+elasticsearch:
+    url: "http://localhost:9200"
+    host: localhost
+    port: 9200
+    username: "elastic"
+    password: "hello12"
+    index_prefix: threats
+
+storage:
+  mongodb:
+    host: localhost
+    port: 27017
+    db_name: threat_blocker
+    collections:
+      ip_threats: ip_threats
+      file_threats: file_threats
+
+threat_intelligence:
+  virustotal:
+    enabled: true
+    api_key: '0c999549614e38aa1c35534537f0ab8c378c42e5d0c23046dab6fb8f64eb9d69'
+    scan_timeout: 60
+  abuseipdb:
+    enabled: true
+    api_key: 'ac34131332a7a2ac6bb51da595ddbc31cc6bb82ef015e004aa9fc46df1dfcbce80e1d7a4589529ba'
+    confidence_score_min: 80
+  misp:
+    enabled: true
+    url: https://your-misp-instance.com
+    api_key: YOUR_MISP_API_KEY
+
+actions:
+  firewall:
+    enabled: true
+    type: iptables  # or ufw
+    block_duration: 86400  # 24 hours in seconds
+  quarantine:
+    enabled: true
+    directory: /var/quarantine
