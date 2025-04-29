@@ -12,7 +12,7 @@ logger = get_logger("file_quarantine")
 class FileQuarantine:
     def __init__(self, config):
         self.config = config
-        self.quarantine_dir = config.get('quarantine_dir', '/var/quarantine')
+        self.quarantine_dir = config.get('quarantine_dir', '/home/atb/auto-threat-blocker/quarantine')
         self.metadata_file = os.path.join(self.quarantine_dir, 'metadata.json')
         
         # Ensure quarantine directory exists

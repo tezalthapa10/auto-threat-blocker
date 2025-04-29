@@ -63,3 +63,61 @@
 2025-04-28 16:20:28,227 - ip_blocker - INFO - Attempting to block IP: 20.171.29.23
 2025-04-28 16:20:38,457 - ip_blocker - INFO - Successfully blocked IP: 20.171.29.23
 2025-04-28 16:20:38,458 - ip_blocker - INFO - {"action": "block", "ip": "20.171.29.23", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T16:20:38.458222", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 16:44:32,170 - ip_blocker - INFO - Attempting to block IP: 20.171.29.23
+2025-04-28 16:44:38,775 - ip_blocker - INFO - IP 20.171.29.23 is already blocked in iptables
+2025-04-28 16:44:38,776 - ip_blocker - INFO - {"action": "block", "ip": "20.171.29.23", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T16:44:38.776830", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 16:54:09,196 - ip_blocker - INFO - IP 20.171.29.23 is already blocked
+2025-04-28 17:02:15,987 - ip_blocker - INFO - IP 20.171.29.23 is already blocked
+2025-04-28 17:04:06,904 - ip_blocker - INFO - IP 20.171.29.23 is already blocked
+2025-04-28 17:14:04,645 - ip_blocker - INFO - Attempting to block IP: 20.169.106.93
+2025-04-28 17:14:09,543 - ip_blocker - INFO - Successfully blocked IP: 20.169.106.93
+2025-04-28 17:14:09,546 - ip_blocker - INFO - {"action": "block", "ip": "20.169.106.93", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T17:14:09.545886", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 17:15:12,739 - ip_blocker - INFO - IP 20.169.106.93 is already blocked
+2025-04-28 17:24:29,436 - ip_blocker - INFO - Attempting to block IP: 71.13.237.17
+2025-04-28 17:24:29,506 - ip_blocker - INFO - Successfully blocked IP: 71.13.237.17
+2025-04-28 17:24:29,506 - ip_blocker - INFO - {"action": "block", "ip": "71.13.237.17", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T17:24:29.506649", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 17:40:05,027 - ip_blocker - INFO - Attempting to block IP: 71.13.237.17
+2025-04-28 17:40:05,092 - ip_blocker - INFO - IP 71.13.237.17 is already blocked in iptables
+2025-04-28 17:40:05,094 - ip_blocker - INFO - {"action": "block", "ip": "71.13.237.17", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T17:40:05.093987", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 17:43:01,370 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-28 22:56:27,095 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-28 23:13:01,088 - ip_blocker - INFO - Attempting to block IP: 71.13.237.17
+2025-04-28 23:13:15,674 - ip_blocker - INFO - IP 71.13.237.17 is already blocked in iptables
+2025-04-28 23:13:15,675 - ip_blocker - INFO - {"action": "block", "ip": "71.13.237.17", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T23:13:15.675650", "is_malicious": true, "event_type": "ip_block"}
+2025-04-28 23:16:11,258 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-28 23:16:59,671 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 10:19:18,721 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 10:20:22,096 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 10:59:53,319 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 15:12:42,599 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 17:59:22,682 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:00:25,261 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:01:27,856 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:02:30,449 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:03:33,031 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:10:15,541 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:11:17,862 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:11:40,784 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:12:43,535 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:13:46,060 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:13:51,242 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:14:53,661 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:15:56,504 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:16:36,510 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:17:39,034 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:17:55,693 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:48:07,455 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:49:10,123 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:49:22,151 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:49:52,285 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:55:07,554 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:55:41,574 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:55:57,557 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:58:23,921 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:58:51,526 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 18:59:23,949 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 19:11:50,044 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 19:14:58,676 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 19:27:59,567 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 19:29:06,564 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-29 19:30:24,095 - ip_blocker - INFO - IP 71.13.237.17 is already blocked

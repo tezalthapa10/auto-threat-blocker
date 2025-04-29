@@ -9,6 +9,7 @@ import json
 import signal
 import threading
 from datetime import datetime
+from dotenv import load_dotenv
 
 # Import components
 from utils.config import load_config
@@ -19,15 +20,17 @@ from action.ip_blocker import IPBlocker
 from action.file_quarantine import FileQuarantine
 from intelligence.virustotal import VirusTotalClient
 from intelligence.abuseipdb import AbuseIPDBClient
-from pymongo import MongoClient
+from mailer.smtp_mailer import Mailer
 
 # Configure main logger
 logger = get_logger("main")
+load_dotenv()
 
 class AutoThreatBlocker:
     def __init__(self, config):
         self.config = config
         self.running = False
+        self.mailer = Mailer()
 
         # Initialize components
         self._init_components()
@@ -103,6 +106,9 @@ class AutoThreatBlocker:
     def _ip_monitoring_thread(self):
         """IP monitoring thread"""
         interval = self.config.get('ip_monitoring', {}).get('interval', 60)
+        # email details
+        subject = "IP Threat detected "
+        message = "Hello! Some Malicious file is detcted please review it."
 
         while self.running:
             try:
@@ -117,6 +123,8 @@ class AutoThreatBlocker:
                         self._process_suspicious_ip(ip)
                     else:
                         logger.info(f"Skipping IP (invalid/private/dangerous): {ip}")
+                
+                self.mailer.send_email(subject, message)
 
                 # Sleep until next cycle
                 logger.info(f"IP monitoring sleeping for {interval} seconds")
@@ -153,6 +161,10 @@ class AutoThreatBlocker:
     def _file_monitoring_thread(self):
         """File monitoring thread"""
         interval = self.config.get('file_monitoring', {}).get('interval', 60)  
+
+        # email details
+        subject = "File Threat detected "
+        message = "Hello! Some Malicious file is detcted please review it"
         
         while self.running:
             try:
@@ -164,6 +176,9 @@ class AutoThreatBlocker:
                 # Process each suspicious file
                 for file_info in suspicious_files:
                     self._process_suspicious_file(file_info)
+                        
+
+                self.mailer.send_email(subject, message)
                 
                 # Sleep until next cycle
                 logger.info(f"File monitoring sleeping for {interval} seconds")
@@ -193,7 +208,6 @@ class AutoThreatBlocker:
                     logger.warning(f"AbuseIPDB confirmed malicious IP: {ip}")
                     source = f"AbuseIPDB: Score {threat_data.get('threat_score', 0)}"
                     self.ip_blocker.block_ip(ip, source)
-                    self.database_manager.insert_threat(ip, threat_data, source)
                     logger.info(f"Blocked and stored IP {ip} confirmed by AbuseIPDB.")
                     return
 
@@ -209,7 +223,6 @@ class AutoThreatBlocker:
                         logger.warning(f"VirusTotal confirmed malicious IP: {ip}")
                         source = f"VirusTotal: Score {vt_data.get('threat_score', 0)}"
                         self.ip_blocker.block_ip(ip, source)
-                        self.database_manager.insert_threat(ip, vt_data, source)
                         logger.info(f"Blocked and stored IP {ip} confirmed by VirusTotal.")
                         return
 
@@ -222,7 +235,6 @@ class AutoThreatBlocker:
                     "is_malicious": True
                 }
                 self.ip_blocker.block_ip(ip, "Multiple failed login attempts")
-                self.database_manager.insert_threat(ip, default_threat_info, "Failed Login Detection")
                 logger.info(f"Blocked and stored IP {ip} based on failed login detection.")
 
         except Exception as e:

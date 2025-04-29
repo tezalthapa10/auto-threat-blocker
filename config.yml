@@ -7,7 +7,7 @@ monitoring:
   file:
     enabled: true
     directories:
-      - /home/user/downloads
+      - /home/atb/Downloads/quarantine
       - /tmp
     scan_interval: 60
 

@@ -1,2 +1,18 @@
 2025-04-26 22:29:37,793 - file_quarantine - ERROR - Failed to create quarantine directory: [Errno 13] Permission denied: '/var/quarantine'
 2025-04-26 22:30:11,917 - file_quarantine - INFO - Created quarantine directory: /var/quarantine
+2025-04-29 18:00:55,850 - file_quarantine - ERROR - Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745928955_7a33275a_test_exec.sh'
+2025-04-29 18:01:56,423 - file_quarantine - ERROR - Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745929016_7a33275a_test_exec.sh'
+2025-04-29 18:02:57,040 - file_quarantine - ERROR - Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745929077_7a33275a_test_exec.sh'
+2025-04-29 18:03:31,588 - file_quarantine - ERROR - Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745929111_7a33275a_test_exec.sh'
+2025-04-29 18:10:14,735 - file_quarantine - INFO - {"action": "quarantine", "file_path": "/tmp/test_exec.sh", "hash": "7a33275a82757726336cf3613ad5ac59a2eb99b13957c4fdd60d25d6c201e95d", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:10:14.735355", "is_malicious": true, "event_type": "file_quarantine"}
+2025-04-29 18:10:14,735 - file_quarantine - INFO - Quarantined file: /tmp/test_exec.sh -> /home/atb/auto-threat-blocker/quarantine/1745929514_7a33275a_test_exec.sh
+2025-04-29 18:25:58,277 - file_quarantine - INFO - {"action": "quarantine", "file_path": "/home/atb/Downloads/quarantine/testfile.sh", "hash": "5b2510eb9298940bf84a162691c21e313b6077af1ba9608300452604362e6c2f", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:25:58.277173", "is_malicious": true, "event_type": "file_quarantine"}
+2025-04-29 18:25:58,277 - file_quarantine - INFO - Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745930458_5b2510eb_testfile.sh
+2025-04-29 18:29:54,648 - file_quarantine - INFO - File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+2025-04-29 18:30:55,247 - file_quarantine - INFO - File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+2025-04-29 18:31:15,993 - file_quarantine - INFO - File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+2025-04-29 18:32:16,606 - file_quarantine - INFO - File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+2025-04-29 18:32:42,124 - file_quarantine - INFO - {"action": "quarantine", "file_path": "/home/atb/Downloads/quarantine/testfile.sh", "hash": "5b2510eb9298940bf84a162691c21e313b6077af1ba9608300452604362e6c2f", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:32:42.124404", "is_malicious": true, "event_type": "file_quarantine"}
+2025-04-29 18:32:42,124 - file_quarantine - INFO - Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745930862_5b2510eb_testfile.sh
+2025-04-29 18:48:05,484 - file_quarantine - INFO - {"action": "quarantine", "file_path": "/home/atb/Downloads/quarantine/testfile.sh", "hash": "5b2510eb9298940bf84a162691c21e313b6077af1ba9608300452604362e6c2f", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:48:05.484183", "is_malicious": true, "event_type": "file_quarantine"}
+2025-04-29 18:48:05,485 - file_quarantine - INFO - Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745931785_5b2510eb_testfile.sh

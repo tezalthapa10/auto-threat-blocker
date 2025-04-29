@@ -1,3 +1,4 @@
+import ipaddress
 import os
 import re
 import logging
@@ -143,7 +144,7 @@ class IPDetector:
                             logger.info(f"Detected potential malicious IP: {ip}")
                             detected_ips.add(ip)
                             # my custom suspicious ip
-                            detected_ips.add("20.171.29.23")
+                            detected_ips.add("71.13.237.17")
                             # self.ip_blocker_service.block_ip(ip)
 
 

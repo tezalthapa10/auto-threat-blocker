@@ -1544,3 +1544,1902 @@ IP monitoring sleeping for 60 seconds
 Received shutdown signal
 Stopping Auto Threat Blocker
 Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Scanning directory: /home/user/downloads
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 117.211.42.85 *********************************
+Checking IP with AbuseIPDB: 117.211.42.85
+Checking IP with VirusTotal: 117.211.42.85
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Scanning directory: /home/user/downloads
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Scanning directory: /tmp
+Executing query for 'Failed password' patterns...
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 20.171.29.23 *********************************
+Checking IP with AbuseIPDB: 20.171.29.23
+AbuseIPDB confirmed malicious IP: 20.171.29.23
+Attempting to block IP: 20.171.29.23
+IP 20.171.29.23 is already blocked in iptables
+{"action": "block", "ip": "20.171.29.23", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T16:44:38.776830", "is_malicious": true, "event_type": "ip_block"}
+Error processing suspicious IP 20.171.29.23: 'AutoThreatBlocker' object has no attribute 'database_manager'
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 20.171.29.23 *********************************
+Checking IP with AbuseIPDB: 20.171.29.23
+AbuseIPDB confirmed malicious IP: 20.171.29.23
+IP 20.171.29.23 is already blocked
+Error processing suspicious IP 20.171.29.23: 'AutoThreatBlocker' object has no attribute 'database_manager'
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 40.86.21.189 *********************************
+Checking IP with AbuseIPDB: 40.86.21.189
+Checking IP with VirusTotal: 40.86.21.189
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Running file threat detection cycle
+Executing query for 'Failed password' patterns...
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 40.86.21.189 *********************************
+Checking IP with AbuseIPDB: 40.86.21.189
+Checking IP with VirusTotal: 40.86.21.189
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 20.171.29.23 *********************************
+Checking IP with AbuseIPDB: 20.171.29.23
+AbuseIPDB confirmed malicious IP: 20.171.29.23
+IP 20.171.29.23 is already blocked
+Error processing suspicious IP 20.171.29.23: 'AutoThreatBlocker' object has no attribute 'database_manager'
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 20.171.29.23 *********************************
+Checking IP with AbuseIPDB: 20.171.29.23
+AbuseIPDB confirmed malicious IP: 20.171.29.23
+IP 20.171.29.23 is already blocked
+Blocked and stored IP 20.171.29.23 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Executing query for 'Failed password' patterns...
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 20.169.106.93 *********************************
+Checking IP with AbuseIPDB: 20.169.106.93
+AbuseIPDB confirmed malicious IP: 20.169.106.93
+Attempting to block IP: 20.169.106.93
+Successfully blocked IP: 20.169.106.93
+{"action": "block", "ip": "20.169.106.93", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T17:14:09.545886", "is_malicious": true, "event_type": "ip_block"}
+Blocked and stored IP 20.169.106.93 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 20.169.106.93 *********************************
+Checking IP with AbuseIPDB: 20.169.106.93
+AbuseIPDB confirmed malicious IP: 20.169.106.93
+IP 20.169.106.93 is already blocked
+Blocked and stored IP 20.169.106.93 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+Attempting to block IP: 71.13.237.17
+Successfully blocked IP: 71.13.237.17
+{"action": "block", "ip": "71.13.237.17", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T17:24:29.506649", "is_malicious": true, "event_type": "ip_block"}
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Running file threat detection cycle
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+Attempting to block IP: 71.13.237.17
+IP 71.13.237.17 is already blocked in iptables
+{"action": "block", "ip": "71.13.237.17", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T17:40:05.093987", "is_malicious": true, "event_type": "ip_block"}
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Scanning directory: /home/user/downloads
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 187.24.4.95 *********************************
+Checking IP with AbuseIPDB: 187.24.4.95
+Checking IP with VirusTotal: 187.24.4.95
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 187.24.4.95 *********************************
+Checking IP with AbuseIPDB: 187.24.4.95
+Checking IP with VirusTotal: 187.24.4.95
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+Attempting to block IP: 71.13.237.17
+IP 71.13.237.17 is already blocked in iptables
+{"action": "block", "ip": "71.13.237.17", "reason": "AbuseIPDB: Score 100", "timestamp": "2025-04-28T23:13:15.675650", "is_malicious": true, "event_type": "ip_block"}
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Scanning directory: /home/user/downloads
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Found suspicious file: /tmp/test_exec.sh
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /tmp/test_exec.sh
+Checking file with VirusTotal: /tmp/test_exec.sh
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+IP monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+IP monitoring sleeping for 60 seconds
+No conclusive threat intelligence data for file /tmp/test_exec.sh
+Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745928955_7a33275a_test_exec.sh'
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Found suspicious file: /tmp/test_exec.sh
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /tmp/test_exec.sh
+Checking file with VirusTotal: /tmp/test_exec.sh
+No conclusive threat intelligence data for file /tmp/test_exec.sh
+Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745929016_7a33275a_test_exec.sh'
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Found suspicious file: /tmp/test_exec.sh
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /tmp/test_exec.sh
+Checking file with VirusTotal: /tmp/test_exec.sh
+No conclusive threat intelligence data for file /tmp/test_exec.sh
+Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745929077_7a33275a_test_exec.sh'
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Found suspicious file: /tmp/test_exec.sh
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /tmp/test_exec.sh
+Checking file with VirusTotal: /tmp/test_exec.sh
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+No conclusive threat intelligence data for file /tmp/test_exec.sh
+Failed to quarantine file /tmp/test_exec.sh: [Errno 13] Permission denied: '/var/quarantine/1745929111_7a33275a_test_exec.sh'
+File monitoring sleeping for 60 seconds
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Found suspicious file: /tmp/test_exec.sh
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /tmp/test_exec.sh
+Checking file with VirusTotal: /tmp/test_exec.sh
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+No conclusive threat intelligence data for file /tmp/test_exec.sh
+{"action": "quarantine", "file_path": "/tmp/test_exec.sh", "hash": "7a33275a82757726336cf3613ad5ac59a2eb99b13957c4fdd60d25d6c201e95d", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:10:14.735355", "is_malicious": true, "event_type": "file_quarantine"}
+Quarantined file: /tmp/test_exec.sh -> /home/atb/auto-threat-blocker/quarantine/1745929514_7a33275a_test_exec.sh
+File monitoring sleeping for 60 seconds
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Auto Threat Blocker started
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+Directory does not exist: /var/quaratine
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Starting file scan in 3 directories
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Directory does not exist: /var/quaratine
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 3 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Directory does not exist: /var/quaratine
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+Directory does not exist: /var/quaratine
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 3 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Directory does not exist: /var/quaratine
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+Directory does not exist: /var/quaratine
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 3 directories
+Scanning directory: /home/user/downloads
+Scanning directory: /tmp
+Directory does not exist: /var/quaratine
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/user/downloads
+Auto Threat Blocker started
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+Directory does not exist: /home/user/downloads/quarantine
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Starting file scan in 2 directories
+Directory does not exist: /home/user/downloads/quarantine
+Auto Threat Blocker started
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+Directory does not exist: /home/atb/downloads/quarantine
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Directory does not exist: /home/atb/downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Auto Threat Blocker started
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+No conclusive threat intelligence data for file /home/atb/Downloads/quarantine/testfile.sh
+{"action": "quarantine", "file_path": "/home/atb/Downloads/quarantine/testfile.sh", "hash": "5b2510eb9298940bf84a162691c21e313b6077af1ba9608300452604362e6c2f", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:25:58.277173", "is_malicious": true, "event_type": "file_quarantine"}
+Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745930458_5b2510eb_testfile.sh
+File monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+No conclusive threat intelligence data for file /home/atb/Downloads/quarantine/testfile.sh
+File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+File monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+No conclusive threat intelligence data for file /home/atb/Downloads/quarantine/testfile.sh
+File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+No conclusive threat intelligence data for file /home/atb/Downloads/quarantine/testfile.sh
+File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+File monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+No conclusive threat intelligence data for file /home/atb/Downloads/quarantine/testfile.sh
+File is already quarantined: /home/atb/Downloads/quarantine/testfile.sh
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running file threat detection cycle
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Scanning directory: /home/atb/Downloads/quarantine
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+No conclusive threat intelligence data for file /home/atb/Downloads/quarantine/testfile.sh
+{"action": "quarantine", "file_path": "/home/atb/Downloads/quarantine/testfile.sh", "hash": "5b2510eb9298940bf84a162691c21e313b6077af1ba9608300452604362e6c2f", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:32:42.124404", "is_malicious": true, "event_type": "file_quarantine"}
+Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745930862_5b2510eb_testfile.sh
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Found suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Scanning directory: /tmp
+Completed file scan, found 1 suspicious files
+Processing suspicious file: /home/atb/Downloads/quarantine/testfile.sh
+Checking file with VirusTotal: /home/atb/Downloads/quarantine/testfile.sh
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+No conclusive threat intelligence data for file /home/atb/Downloads/quarantine/testfile.sh
+{"action": "quarantine", "file_path": "/home/atb/Downloads/quarantine/testfile.sh", "hash": "5b2510eb9298940bf84a162691c21e313b6077af1ba9608300452604362e6c2f", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:48:05.484183", "is_malicious": true, "event_type": "file_quarantine"}
+Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745931785_5b2510eb_testfile.sh
+Error in file monitoring thread: Mailer.send_email() takes 2 positional arguments but 3 were given
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Error in file monitoring thread: Mailer.send_email() takes 2 positional arguments but 3 were given
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Error in file monitoring thread: Mailer.send_email() takes 2 positional arguments but 3 were given
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+Error in IP monitoring thread: Mailer.send_email() takes 2 positional arguments but 3 were given
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Running file threat detection cycle
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+File monitoring sleeping for 60 seconds
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Running file threat detection cycle
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Running file threat detection cycle
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Executing query for 'Failed password' patterns...
+Auto Threat Blocker started
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Running file threat detection cycle
+Auto Threat Blocker started
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+File monitoring sleeping for 60 seconds
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
