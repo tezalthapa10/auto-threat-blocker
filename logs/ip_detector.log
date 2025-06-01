@@ -971,3 +971,140 @@
 2025-04-29 19:30:22,830 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
 2025-04-29 19:30:22,830 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
 2025-04-29 19:30:22,830 - ip_detector - INFO - Detected 3 unique suspicious IP addresses
+2025-04-30 00:39:35,875 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-30 00:39:35,878 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-30 00:39:36,406 - ip_detector - INFO - Found 0 total matching documents
+2025-04-30 00:39:36,406 - ip_detector - INFO - Processing 0 documents
+2025-04-30 00:39:36,407 - ip_detector - INFO - Detected 0 unique suspicious IP addresses
+2025-04-30 00:41:51,873 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-04-30 00:41:51,874 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-04-30 00:41:52,058 - ip_detector - INFO - Found 4 total matching documents
+2025-04-30 00:41:52,058 - ip_detector - INFO - Processing 4 documents
+2025-04-30 00:41:52,059 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-30 00:41:52,059 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-04-30 00:41:52,059 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-30 00:41:52,059 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-04-30 00:41:52,059 - ip_detector - INFO - Detected 3 unique suspicious IP addresses
+2025-05-27 23:42:13,223 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-05-27 23:42:13,225 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-05-27 23:42:13,316 - ip_detector - INFO - Found 4 total matching documents
+2025-05-27 23:42:13,317 - ip_detector - INFO - Processing 4 documents
+2025-05-27 23:42:13,317 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-05-27 23:42:13,317 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-05-27 23:42:13,317 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-05-27 23:42:13,317 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-05-27 23:42:13,317 - ip_detector - INFO - Detected 3 unique suspicious IP addresses
+2025-05-27 23:43:49,849 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-05-27 23:43:49,851 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-05-27 23:43:49,891 - ip_detector - INFO - Found 4 total matching documents
+2025-05-27 23:43:49,891 - ip_detector - INFO - Processing 4 documents
+2025-05-27 23:43:49,892 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-05-27 23:43:49,892 - ip_detector - INFO - Detected potential malicious IP: 203.0.113.1
+2025-05-27 23:43:49,892 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-05-27 23:43:49,892 - ip_detector - INFO - Detected potential malicious IP: 127.0.0.1
+2025-05-27 23:43:49,892 - ip_detector - INFO - Detected 3 unique suspicious IP addresses
+2025-05-27 23:50:09,800 - ip_detector - INFO - Scanning for malicious IP addresses...
+2025-05-27 23:50:09,801 - ip_detector - INFO - Found predefined malicious IP: 71.13.237.17
+2025-05-27 23:50:09,801 - ip_detector - INFO - Found predefined malicious IP: 185.220.101.32
+2025-05-27 23:50:09,801 - ip_detector - INFO - Found predefined malicious IP: 198.98.62.85
+2025-05-27 23:50:09,801 - ip_detector - INFO - Found predefined malicious IP: 94.102.61.46
+2025-05-27 23:50:09,801 - ip_detector - INFO - Found predefined malicious IP: 103.224.182.251
+2025-05-27 23:50:09,801 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-05-27 23:50:09,802 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-05-27 23:50:09,843 - ip_detector - INFO - Found 4 total matching documents from Elasticsearch
+2025-05-27 23:50:09,844 - ip_detector - INFO - Processing 4 documents
+2025-05-27 23:50:09,844 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-27 23:50:09,844 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-27 23:50:09,845 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-27 23:50:09,845 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-27 23:50:09,845 - ip_detector - INFO - Detected 7 unique suspicious IP addresses
+2025-05-27 23:50:41,957 - ip_detector - INFO - {"event_type": "ip_detection", "action": "blocked", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-27T23:50:41.957310", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:50:43,454 - ip_detector - INFO - {"event_type": "ip_detection", "action": "blocked", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-27T23:50:43.454639", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:50:43,455 - ip_detector - INFO - {"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-27T23:50:43.455058", "is_malicious": false, "source": "atb_ip_detector"}
+2025-05-27 23:50:44,702 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-27T23:50:44.702598", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:50:45,331 - ip_detector - INFO - {"event_type": "ip_detection", "action": "blocked", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-27T23:50:45.331203", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:50:45,786 - ip_detector - INFO - {"event_type": "ip_detection", "action": "blocked", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-27T23:50:45.785993", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:52:51,273 - ip_detector - INFO - Scanning for malicious IP addresses...
+2025-05-27 23:52:51,273 - ip_detector - INFO - Found predefined malicious IP: 71.13.237.17
+2025-05-27 23:52:51,274 - ip_detector - INFO - Found predefined malicious IP: 185.220.101.32
+2025-05-27 23:52:51,274 - ip_detector - INFO - Found predefined malicious IP: 198.98.62.85
+2025-05-27 23:52:51,275 - ip_detector - INFO - Found predefined malicious IP: 94.102.61.46
+2025-05-27 23:52:51,275 - ip_detector - INFO - Found predefined malicious IP: 103.224.182.251
+2025-05-27 23:52:51,275 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-05-27 23:52:51,275 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-05-27 23:52:51,294 - ip_detector - INFO - Found 4 total matching documents from Elasticsearch
+2025-05-27 23:52:51,294 - ip_detector - INFO - Processing 4 documents
+2025-05-27 23:52:51,295 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-27 23:52:51,295 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-27 23:52:51,295 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-27 23:52:51,295 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-27 23:52:51,295 - ip_detector - INFO - Detected 7 unique suspicious IP addresses
+2025-05-27 23:52:52,578 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-27T23:52:52.578595", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:52:53,820 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-27T23:52:53.820502", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:52:54,238 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-27T23:52:54.238287", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:52:54,931 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-27T23:52:54.931096", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:52:55,614 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-27T23:52:55.614108", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-27 23:52:55,614 - ip_detector - INFO - {"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-27T23:52:55.614758", "is_malicious": false, "source": "atb_ip_detector"}
+2025-05-28 00:57:42,256 - ip_detector - INFO - Scanning for malicious IP addresses...
+2025-05-28 00:57:42,259 - ip_detector - INFO - Found predefined malicious IP: 71.13.237.17
+2025-05-28 00:57:42,259 - ip_detector - INFO - Found predefined malicious IP: 185.220.101.32
+2025-05-28 00:57:42,259 - ip_detector - INFO - Found predefined malicious IP: 198.98.62.85
+2025-05-28 00:57:42,260 - ip_detector - INFO - Found predefined malicious IP: 94.102.61.46
+2025-05-28 00:57:42,261 - ip_detector - INFO - Found predefined malicious IP: 103.224.182.251
+2025-05-28 00:57:42,261 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-05-28 00:57:42,261 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-05-28 00:57:43,473 - ip_detector - INFO - Found 4 total matching documents from Elasticsearch
+2025-05-28 00:57:43,473 - ip_detector - INFO - Processing 4 documents
+2025-05-28 00:57:43,474 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-28 00:57:43,474 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-28 00:57:43,474 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-28 00:57:43,475 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-28 00:57:43,475 - ip_detector - INFO - Detected 7 unique suspicious IP addresses
+2025-05-28 00:57:44,789 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-28T00:57:44.788959", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 00:57:45,463 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-28T00:57:45.463111", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 00:57:46,140 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-28T00:57:46.140283", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 00:57:47,088 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-28T00:57:47.088943", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 00:57:47,089 - ip_detector - INFO - {"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-28T00:57:47.089466", "is_malicious": false, "source": "atb_ip_detector"}
+2025-05-28 00:57:47,490 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-28T00:57:47.490143", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:15:50,200 - ip_detector - INFO - Scanning for malicious IP addresses...
+2025-05-28 10:15:50,205 - ip_detector - INFO - Found predefined malicious IP: 71.13.237.17
+2025-05-28 10:15:50,206 - ip_detector - INFO - Found predefined malicious IP: 185.220.101.32
+2025-05-28 10:15:50,206 - ip_detector - INFO - Found predefined malicious IP: 198.98.62.85
+2025-05-28 10:15:50,207 - ip_detector - INFO - Found predefined malicious IP: 94.102.61.46
+2025-05-28 10:15:50,208 - ip_detector - INFO - Found predefined malicious IP: 103.224.182.251
+2025-05-28 10:15:50,209 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-05-28 10:15:50,209 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-05-28 10:15:50,857 - ip_detector - INFO - Found 4 total matching documents from Elasticsearch
+2025-05-28 10:15:50,858 - ip_detector - INFO - Processing 4 documents
+2025-05-28 10:15:50,859 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-28 10:15:50,859 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-28 10:15:50,859 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-28 10:15:50,859 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-28 10:15:50,859 - ip_detector - INFO - Detected 7 unique suspicious IP addresses
+2025-05-28 10:15:51,708 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-28T10:15:51.708387", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:15:52,986 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-28T10:15:52.986519", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:15:52,987 - ip_detector - INFO - {"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-28T10:15:52.987104", "is_malicious": false, "source": "atb_ip_detector"}
+2025-05-28 10:15:53,488 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-28T10:15:53.488002", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:15:54,772 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-28T10:15:54.772422", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:15:55,336 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-28T10:15:55.336759", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:16:58,504 - ip_detector - INFO - Scanning for malicious IP addresses...
+2025-05-28 10:16:58,504 - ip_detector - INFO - Found predefined malicious IP: 71.13.237.17
+2025-05-28 10:16:58,504 - ip_detector - INFO - Found predefined malicious IP: 185.220.101.32
+2025-05-28 10:16:58,504 - ip_detector - INFO - Found predefined malicious IP: 198.98.62.85
+2025-05-28 10:16:58,504 - ip_detector - INFO - Found predefined malicious IP: 94.102.61.46
+2025-05-28 10:16:58,505 - ip_detector - INFO - Found predefined malicious IP: 103.224.182.251
+2025-05-28 10:16:58,505 - ip_detector - INFO - Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+2025-05-28 10:16:58,505 - ip_detector - INFO - Executing query for 'Failed password' patterns...
+2025-05-28 10:16:58,599 - ip_detector - INFO - Found 4 total matching documents from Elasticsearch
+2025-05-28 10:16:58,599 - ip_detector - INFO - Processing 4 documents
+2025-05-28 10:16:58,599 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-28 10:16:58,599 - ip_detector - INFO - Detected potential malicious IP from logs: 203.0.113.1
+2025-05-28 10:16:58,600 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-28 10:16:58,600 - ip_detector - INFO - Detected potential malicious IP from logs: 127.0.0.1
+2025-05-28 10:16:58,600 - ip_detector - INFO - Detected 7 unique suspicious IP addresses
+2025-05-28 10:16:59,293 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-28T10:16:59.293587", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:17:00,491 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-28T10:17:00.491186", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:17:00,492 - ip_detector - INFO - {"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-28T10:17:00.491969", "is_malicious": false, "source": "atb_ip_detector"}
+2025-05-28 10:17:00,947 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-28T10:17:00.947632", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:17:01,712 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-28T10:17:01.712368", "is_malicious": true, "source": "atb_ip_detector"}
+2025-05-28 10:17:02,465 - ip_detector - INFO - {"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-28T10:17:02.464962", "is_malicious": true, "source": "atb_ip_detector"}

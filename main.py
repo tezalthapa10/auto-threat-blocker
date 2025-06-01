@@ -194,49 +194,45 @@ class AutoThreatBlocker:
     def _process_suspicious_ip(self, ip):
         """Process a suspicious IP address"""
         try:
-            logger.info(f"*********************************Processing suspicious IP: {ip} *********************************")
-
-            threat_data = None
-            source = "Unknown"
-
-            # Check with AbuseIPDB
-            if self.abuseipdb:
-                logger.info(f"Checking IP with AbuseIPDB: {ip}")
-                threat_data = self.abuseipdb.check_ip(ip)
-
-                if threat_data and threat_data.get('is_malicious', False):
-                    logger.warning(f"AbuseIPDB confirmed malicious IP: {ip}")
-                    source = f"AbuseIPDB: Score {threat_data.get('threat_score', 0)}"
-                    self.ip_blocker.block_ip(ip, source)
-                    logger.info(f"Blocked and stored IP {ip} confirmed by AbuseIPDB.")
-                    return
-
-            # Check with VirusTotal if not already confirmed
-            if self.virustotal and not (threat_data and threat_data.get('is_malicious', False)):
-                logger.info(f"Checking IP with VirusTotal: {ip}")
-                vt_data = self.virustotal.scan_ip(ip)
-
-                if vt_data:
-                    threat_data = vt_data
-
-                    if vt_data.get('is_malicious', False):
-                        logger.warning(f"VirusTotal confirmed malicious IP: {ip}")
-                        source = f"VirusTotal: Score {vt_data.get('threat_score', 0)}"
-                        self.ip_blocker.block_ip(ip, source)
-                        logger.info(f"Blocked and stored IP {ip} confirmed by VirusTotal.")
-                        return
-
-            # No intelligence confirmation
-            if not threat_data:
-                logger.info(f"No threat intelligence data for IP {ip}, blocking based on failed login attempts")
-                default_threat_info = {
-                    "reason": "Multiple failed login attempts",
-                    "threat_score": 50,  # default score
-                    "is_malicious": True
-                }
-                self.ip_blocker.block_ip(ip, "Multiple failed login attempts")
-                logger.info(f"Blocked and stored IP {ip} based on failed login detection.")
-
+            logger.info(f"Processing suspicious IP: {ip}")
+            
+            # Get IP threat information
+            ip_info = self.ip_detector.get_ip_info(ip)
+            threat_score = ip_info.get('threat_score', 50)
+            category = ip_info.get('category', 'unknown')
+            
+            # Determine if should block
+            should_block = self.ip_detector.should_block_ip(ip, ip_info)
+            
+            if should_block:
+                # Check with external threat intelligence
+                threat_data = None
+                source = "Internal Database"
+                
+                # Check with AbuseIPDB if available
+                if self.abuseipdb:
+                    logger.info(f"Checking IP with AbuseIPDB: {ip}")
+                    threat_data = self.abuseipdb.check_ip(ip)
+                    if threat_data and threat_data.get('is_malicious', False):
+                        source = f"AbuseIPDB: Score {threat_data.get('threat_score', 0)}"
+                
+                # Block the IP
+                reason = f"{category.title()} IP (Score: {threat_score})"
+                success = self.ip_blocker.block_ip(ip, reason)
+                
+                if success:
+                    logger.warning(f"Successfully blocked malicious IP: {ip}")
+                    # Log the detection event
+                    self.ip_detector.log_ip_detection(ip, ip_info, "blocked")
+                    # Send alert email
+                    self._send_ip_alert(ip, reason, threat_score)
+                else:
+                    logger.error(f"Failed to block IP: {ip}")
+                    self.ip_detector.log_ip_detection(ip, ip_info, "block_failed")
+            else:
+                logger.info(f"IP {ip} has low threat score ({threat_score}), not blocking")
+                self.ip_detector.log_ip_detection(ip, ip_info, "monitored")
+                
         except Exception as e:
             logger.error(f"Error processing suspicious IP {ip}: {e}")
 

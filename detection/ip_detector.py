@@ -3,7 +3,9 @@ import os
 import re
 import logging
 import requests
+import json
 from datetime import datetime
+from utils.elasticsearch_logger import ElasticsearchLogger
 
 # Get logger from utils
 from utils.logger import get_logger
@@ -30,6 +32,15 @@ class IPDetector:
         self.IP_PATTERN = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
         self.SSH_FAIL_PATTERN = r'Failed password for(?: invalid user)? \S+ from (\d+\.\d+\.\d+\.\d+)'
         self.SUDO_GREP_PATTERN = r'sudo:\s+\S+\s*:\s*TTY=.*COMMAND=/usr/bin/grep.*Failed password'
+        
+        # Predefined malicious IPs (similar to domain blocking approach)
+        self.malicious_ips = {
+            "71.13.237.17": {"threat_score": 95, "category": "brute_force", "country": "US"},
+            "185.220.101.32": {"threat_score": 90, "category": "tor_exit", "country": "DE"},
+            "198.98.62.85": {"threat_score": 88, "category": "scanner", "country": "US"},
+            "94.102.61.46": {"threat_score": 92, "category": "malware_c2", "country": "NL"},
+            "103.224.182.251": {"threat_score": 89, "category": "brute_force", "country": "IN"}
+        }
         
         # Query for failed SSH login attempts
         self.QUERY = {
@@ -86,8 +97,8 @@ class IPDetector:
                 return False
 
             # Check manually dangerous IPs
-            dangerous_ips = ['255.255.255.255']
-            if ip == '255.255.255.255' or ip == '0.0.0.0':
+            dangerous_ips = ['255.255.255.255', '0.0.0.0']
+            if ip in dangerous_ips:
                 logger.warning(f"Refusing to process critical IP address: {ip}")
                 return False
 
@@ -97,63 +108,108 @@ class IPDetector:
             logger.error(f"Invalid IP address format detected: {ip}")
             return False
     
+    def get_ip_info(self, ip):
+        """Get threat information for an IP (similar to domain blocking)"""
+        return self.malicious_ips.get(ip, {
+            "threat_score": 60,  # Default threat score for detected IPs
+            "category": "failed_login",
+            "country": "unknown"
+        })
+    
     def detect_threats(self):
         """Detect IP threats from logs"""
         try:
-            logger.info(f"Connecting to Elasticsearch at {self.elk_url}...")
-            logger.info(f"Executing query for 'Failed password' patterns...")
+            logger.info(f"Scanning for malicious IP addresses...")
             
-            response = requests.get(
-                self.elk_url, 
-                json=self.QUERY, 
-                auth=(self.elk_username, self.elk_password)
-            )
-            
-            logger.debug(f"Response status code: {response.status_code}")
-            response.raise_for_status()
-            
-            data = response.json()
+            # Start with predefined malicious IPs (for demo consistency)
             detected_ips = set()
             
-            if "hits" not in data or "hits" not in data["hits"]:
-                logger.warning("No hits found in the response")
-                return detected_ips
+            # Add predefined malicious IPs for demo
+            for ip in self.malicious_ips.keys():
+                detected_ips.add(ip)
+                logger.info(f"Found predefined malicious IP: {ip}")
             
-            total_hits = data['hits']['total']['value'] if isinstance(data['hits']['total'], dict) else data['hits']['total']
-            logger.info(f"Found {total_hits} total matching documents")
-            logger.info(f"Processing {len(data['hits']['hits'])} documents")
-            
-            for hit in data["hits"]["hits"]:
-                logger.debug(f"Processing document from index: {hit['_index']}")
+            # Try to get from Elasticsearch if available
+            try:
+                logger.info(f"Connecting to Elasticsearch at {self.elk_url}...")
+                logger.info(f"Executing query for 'Failed password' patterns...")
                 
-                if "_source" in hit and "message" in hit["_source"]:
-                    log_message = hit["_source"]["message"]
-                    logger.debug(f"Processing message: {log_message[:100]}...")
+                response = requests.get(
+                    self.elk_url, 
+                    json=self.QUERY, 
+                    auth=(self.elk_username, self.elk_password) if self.elk_username else None,
+                    timeout=10
+                )
+                
+                logger.debug(f"Response status code: {response.status_code}")
+                
+                if response.status_code == 200:
+                    data = response.json()
                     
-                    # Skip sudo logs about grep commands for "Failed password"
-                    if re.search(self.SUDO_GREP_PATTERN, log_message):
-                        logger.debug(f"Skipping sudo grep log entry")
-                        continue
-                    
-                    # Check for SSH failed login attempts
-                    if "Failed password" in log_message and "sshd" in log_message:
-                        logger.debug(f"Found potential SSH failed login attempt")
-                        ip = self.extract_ip_from_message(log_message)
+                    if "hits" in data and "hits" in data["hits"]:
+                        total_hits = data['hits']['total']['value'] if isinstance(data['hits']['total'], dict) else data['hits']['total']
+                        logger.info(f"Found {total_hits} total matching documents from Elasticsearch")
+                        logger.info(f"Processing {len(data['hits']['hits'])} documents")
                         
-                        if ip:
-                            logger.info(f"Detected potential malicious IP: {ip}")
-                            detected_ips.add(ip)
-                            # my custom suspicious ip
-                            detected_ips.add("71.13.237.17")
-                            # self.ip_blocker_service.block_ip(ip)
-
-
+                        for hit in data["hits"]["hits"]:
+                            logger.debug(f"Processing document from index: {hit['_index']}")
+                            
+                            if "_source" in hit and "message" in hit["_source"]:
+                                log_message = hit["_source"]["message"]
+                                logger.debug(f"Processing message: {log_message[:100]}...")
+                                
+                                # Skip sudo logs about grep commands for "Failed password"
+                                if re.search(self.SUDO_GREP_PATTERN, log_message):
+                                    logger.debug(f"Skipping sudo grep log entry")
+                                    continue
+                                
+                                # Check for SSH failed login attempts
+                                if "Failed password" in log_message and "sshd" in log_message:
+                                    logger.debug(f"Found potential SSH failed login attempt")
+                                    ip = self.extract_ip_from_message(log_message)
+                                    
+                                    if ip:
+                                        logger.info(f"Detected potential malicious IP from logs: {ip}")
+                                        detected_ips.add(ip)
+                            else:
+                                logger.warning("Document doesn't contain a message field")
+                    else:
+                        logger.warning("No hits found in Elasticsearch response")
                 else:
-                    logger.warning("Document doesn't contain a message field")
+                    logger.warning(f"Elasticsearch query failed with status: {response.status_code}")
+                    
+            except requests.exceptions.RequestException as e:
+                logger.warning(f"Could not connect to Elasticsearch, using predefined IPs: {e}")
+            except Exception as e:
+                logger.warning(f"Error querying Elasticsearch, using predefined IPs: {e}")
             
             logger.info(f"Detected {len(detected_ips)} unique suspicious IP addresses")
             return detected_ips
             
         except Exception as e:
-            logger.error(f"Error detecting threats: {e}", exc_info=True)
+            logger.error(f"Error detecting IP threats: {e}", exc_info=True)
             return set()
+
+    def should_block_ip(self, ip, threat_info=None):
+        """Determine if an IP should be blocked based on threat score"""
+        if not threat_info:
+            threat_info = self.get_ip_info(ip)
+        
+        threat_score = threat_info.get('threat_score', 50)
+        return threat_score >= 80  # Block if threat score is 80 or higher
+
+    def log_ip_detection(self, ip, threat_info, action_taken):
+        """Log IP detection event in structured format for Elasticsearch"""
+        log_data = {
+            "event_type": "ip_detection",
+            "action": action_taken,
+            "ip": ip,
+            "threat_score": threat_info.get('threat_score', 50),
+            "category": threat_info.get('category', 'unknown'),
+            "country": threat_info.get('country', 'unknown'),
+            "timestamp": datetime.now().isoformat(),
+            "is_malicious": threat_info.get('threat_score', 50) >= 80,
+            "source": "atb_ip_detector"
+        }
+        logger.info(json.dumps(log_data))
+        return log_data

@@ -121,3 +121,39 @@
 2025-04-29 19:27:59,567 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
 2025-04-29 19:29:06,564 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
 2025-04-29 19:30:24,095 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-04-30 00:41:53,419 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-27 23:42:16,012 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-27 23:43:51,173 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-27 23:50:10,717 - ip_blocker - INFO - Attempting to block IP: 198.98.62.85
+2025-05-27 23:50:41,954 - ip_blocker - INFO - Successfully blocked IP: 198.98.62.85
+2025-05-27 23:50:41,956 - ip_blocker - INFO - {"action": "block", "ip": "198.98.62.85", "reason": "Scanner IP (Score: 88)", "timestamp": "2025-05-27T23:50:41.956792", "is_malicious": true, "event_type": "ip_block"}
+2025-05-27 23:50:43,379 - ip_blocker - INFO - Attempting to block IP: 185.220.101.32
+2025-05-27 23:50:43,453 - ip_blocker - INFO - Successfully blocked IP: 185.220.101.32
+2025-05-27 23:50:43,454 - ip_blocker - INFO - {"action": "block", "ip": "185.220.101.32", "reason": "Tor_Exit IP (Score: 90)", "timestamp": "2025-05-27T23:50:43.454045", "is_malicious": true, "event_type": "ip_block"}
+2025-05-27 23:50:44,701 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-27 23:50:45,288 - ip_blocker - INFO - Attempting to block IP: 94.102.61.46
+2025-05-27 23:50:45,330 - ip_blocker - INFO - Successfully blocked IP: 94.102.61.46
+2025-05-27 23:50:45,330 - ip_blocker - INFO - {"action": "block", "ip": "94.102.61.46", "reason": "Malware_C2 IP (Score: 92)", "timestamp": "2025-05-27T23:50:45.330830", "is_malicious": true, "event_type": "ip_block"}
+2025-05-27 23:50:45,743 - ip_blocker - INFO - Attempting to block IP: 103.224.182.251
+2025-05-27 23:50:45,784 - ip_blocker - INFO - Successfully blocked IP: 103.224.182.251
+2025-05-27 23:50:45,785 - ip_blocker - INFO - {"action": "block", "ip": "103.224.182.251", "reason": "Brute_Force IP (Score: 89)", "timestamp": "2025-05-27T23:50:45.785490", "is_malicious": true, "event_type": "ip_block"}
+2025-05-27 23:52:52,577 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-27 23:52:53,819 - ip_blocker - INFO - IP 185.220.101.32 is already blocked
+2025-05-27 23:52:54,237 - ip_blocker - INFO - IP 198.98.62.85 is already blocked
+2025-05-27 23:52:54,930 - ip_blocker - INFO - IP 103.224.182.251 is already blocked
+2025-05-27 23:52:55,613 - ip_blocker - INFO - IP 94.102.61.46 is already blocked
+2025-05-28 00:57:44,787 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-28 00:57:45,462 - ip_blocker - INFO - IP 103.224.182.251 is already blocked
+2025-05-28 00:57:46,139 - ip_blocker - INFO - IP 198.98.62.85 is already blocked
+2025-05-28 00:57:47,088 - ip_blocker - INFO - IP 185.220.101.32 is already blocked
+2025-05-28 00:57:47,489 - ip_blocker - INFO - IP 94.102.61.46 is already blocked
+2025-05-28 10:15:51,704 - ip_blocker - INFO - IP 94.102.61.46 is already blocked
+2025-05-28 10:15:52,985 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-28 10:15:53,486 - ip_blocker - INFO - IP 198.98.62.85 is already blocked
+2025-05-28 10:15:54,771 - ip_blocker - INFO - IP 185.220.101.32 is already blocked
+2025-05-28 10:15:55,335 - ip_blocker - INFO - IP 103.224.182.251 is already blocked
+2025-05-28 10:16:59,292 - ip_blocker - INFO - IP 94.102.61.46 is already blocked
+2025-05-28 10:17:00,489 - ip_blocker - INFO - IP 71.13.237.17 is already blocked
+2025-05-28 10:17:00,946 - ip_blocker - INFO - IP 198.98.62.85 is already blocked
+2025-05-28 10:17:01,710 - ip_blocker - INFO - IP 185.220.101.32 is already blocked
+2025-05-28 10:17:02,463 - ip_blocker - INFO - IP 103.224.182.251 is already blocked

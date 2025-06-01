@@ -1798,3 +1798,214 @@
 2025-04-29 19:30:39,211 - main - INFO - Received shutdown signal
 2025-04-29 19:30:39,211 - main - INFO - Stopping Auto Threat Blocker
 2025-04-29 19:30:39,706 - main - INFO - Auto Threat Blocker stopped
+2025-04-30 00:39:35,864 - main - INFO - All components initialized successfully
+2025-04-30 00:39:35,874 - main - INFO - Starting Auto Threat Blocker
+2025-04-30 00:39:35,875 - main - INFO - Running IP threat detection cycle
+2025-04-30 00:39:35,876 - main - INFO - Running file threat detection cycle
+2025-04-30 00:39:35,876 - main - INFO - Auto Threat Blocker started
+2025-04-30 00:39:40,604 - main - INFO - File monitoring sleeping for 60 seconds
+2025-04-30 00:39:40,915 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-04-30 00:39:59,279 - main - INFO - Received shutdown signal
+2025-04-30 00:39:59,280 - main - INFO - Stopping Auto Threat Blocker
+2025-04-30 00:39:59,920 - main - INFO - Auto Threat Blocker stopped
+2025-04-30 00:41:51,872 - main - INFO - All components initialized successfully
+2025-04-30 00:41:51,872 - main - INFO - Starting Auto Threat Blocker
+2025-04-30 00:41:51,873 - main - INFO - Running IP threat detection cycle
+2025-04-30 00:41:51,873 - main - INFO - Running file threat detection cycle
+2025-04-30 00:41:51,874 - main - INFO - Auto Threat Blocker started
+2025-04-30 00:41:52,060 - main - INFO - *********************************Processing suspicious IP: 71.13.237.17 *********************************
+2025-04-30 00:41:52,060 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-04-30 00:41:53,418 - main - WARNING - AbuseIPDB confirmed malicious IP: 71.13.237.17
+2025-04-30 00:41:53,421 - main - INFO - Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+2025-04-30 00:41:53,422 - main - INFO - *********************************Processing suspicious IP: 203.0.113.1 *********************************
+2025-04-30 00:41:53,422 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-04-30 00:41:54,106 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-04-30 00:41:55,095 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-04-30 00:41:55,096 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-04-30 00:41:56,469 - main - INFO - File monitoring sleeping for 60 seconds
+2025-04-30 00:41:59,661 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-04-30 00:42:11,735 - main - INFO - Received shutdown signal
+2025-04-30 00:42:11,736 - main - INFO - Stopping Auto Threat Blocker
+2025-04-30 00:42:12,668 - main - INFO - Auto Threat Blocker stopped
+2025-05-27 23:42:13,221 - main - INFO - All components initialized successfully
+2025-05-27 23:42:13,222 - main - INFO - Starting Auto Threat Blocker
+2025-05-27 23:42:13,223 - main - INFO - Running IP threat detection cycle
+2025-05-27 23:42:13,223 - main - INFO - Running file threat detection cycle
+2025-05-27 23:42:13,223 - main - INFO - Auto Threat Blocker started
+2025-05-27 23:42:13,317 - main - INFO - *********************************Processing suspicious IP: 203.0.113.1 *********************************
+2025-05-27 23:42:13,318 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-05-27 23:42:14,071 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-05-27 23:42:14,786 - main - INFO - *********************************Processing suspicious IP: 71.13.237.17 *********************************
+2025-05-27 23:42:14,786 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-05-27 23:42:16,012 - main - WARNING - AbuseIPDB confirmed malicious IP: 71.13.237.17
+2025-05-27 23:42:16,014 - main - INFO - Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+2025-05-27 23:42:16,014 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-05-27 23:42:16,014 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-05-27 23:42:16,731 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-27 23:42:19,284 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-05-27 23:42:26,889 - main - INFO - Received shutdown signal
+2025-05-27 23:42:26,889 - main - INFO - Stopping Auto Threat Blocker
+2025-05-27 23:42:27,735 - main - INFO - Auto Threat Blocker stopped
+2025-05-27 23:43:49,847 - main - INFO - All components initialized successfully
+2025-05-27 23:43:49,848 - main - INFO - Starting Auto Threat Blocker
+2025-05-27 23:43:49,849 - main - INFO - Running IP threat detection cycle
+2025-05-27 23:43:49,849 - main - INFO - Running file threat detection cycle
+2025-05-27 23:43:49,849 - main - INFO - Auto Threat Blocker started
+2025-05-27 23:43:49,892 - main - INFO - *********************************Processing suspicious IP: 71.13.237.17 *********************************
+2025-05-27 23:43:49,893 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-05-27 23:43:51,172 - main - WARNING - AbuseIPDB confirmed malicious IP: 71.13.237.17
+2025-05-27 23:43:51,174 - main - INFO - Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+2025-05-27 23:43:51,174 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-05-27 23:43:51,174 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-05-27 23:43:51,174 - main - INFO - *********************************Processing suspicious IP: 203.0.113.1 *********************************
+2025-05-27 23:43:51,175 - main - INFO - Checking IP with AbuseIPDB: 203.0.113.1
+2025-05-27 23:43:51,854 - main - INFO - Checking IP with VirusTotal: 203.0.113.1
+2025-05-27 23:43:53,011 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-27 23:43:55,818 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-05-27 23:44:18,862 - main - INFO - Received shutdown signal
+2025-05-27 23:44:18,863 - main - INFO - Stopping Auto Threat Blocker
+2025-05-27 23:44:19,826 - main - INFO - Auto Threat Blocker stopped
+2025-05-27 23:50:09,798 - main - INFO - All components initialized successfully
+2025-05-27 23:50:09,799 - main - INFO - Starting Auto Threat Blocker
+2025-05-27 23:50:09,799 - main - INFO - Running IP threat detection cycle
+2025-05-27 23:50:09,800 - main - INFO - Running file threat detection cycle
+2025-05-27 23:50:09,800 - main - INFO - Auto Threat Blocker started
+2025-05-27 23:50:09,846 - main - INFO - Processing suspicious IP: 198.98.62.85
+2025-05-27 23:50:09,846 - main - INFO - Checking IP with AbuseIPDB: 198.98.62.85
+2025-05-27 23:50:13,234 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-27 23:50:41,957 - main - WARNING - Successfully blocked malicious IP: 198.98.62.85
+2025-05-27 23:50:41,958 - main - ERROR - Error processing suspicious IP 198.98.62.85: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+2025-05-27 23:50:41,959 - main - INFO - Processing suspicious IP: 185.220.101.32
+2025-05-27 23:50:41,959 - main - INFO - Checking IP with AbuseIPDB: 185.220.101.32
+2025-05-27 23:50:43,454 - main - WARNING - Successfully blocked malicious IP: 185.220.101.32
+2025-05-27 23:50:43,454 - main - ERROR - Error processing suspicious IP 185.220.101.32: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+2025-05-27 23:50:43,454 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-05-27 23:50:43,454 - main - INFO - IP 203.0.113.1 has low threat score (60), not blocking
+2025-05-27 23:50:43,455 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-05-27 23:50:43,455 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-05-27 23:50:43,455 - main - INFO - Processing suspicious IP: 71.13.237.17
+2025-05-27 23:50:43,455 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-05-27 23:50:44,702 - main - ERROR - Failed to block IP: 71.13.237.17
+2025-05-27 23:50:44,703 - main - INFO - Processing suspicious IP: 94.102.61.46
+2025-05-27 23:50:44,703 - main - INFO - Checking IP with AbuseIPDB: 94.102.61.46
+2025-05-27 23:50:45,331 - main - WARNING - Successfully blocked malicious IP: 94.102.61.46
+2025-05-27 23:50:45,332 - main - ERROR - Error processing suspicious IP 94.102.61.46: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+2025-05-27 23:50:45,332 - main - INFO - Processing suspicious IP: 103.224.182.251
+2025-05-27 23:50:45,332 - main - INFO - Checking IP with AbuseIPDB: 103.224.182.251
+2025-05-27 23:50:45,785 - main - WARNING - Successfully blocked malicious IP: 103.224.182.251
+2025-05-27 23:50:45,786 - main - ERROR - Error processing suspicious IP 103.224.182.251: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+2025-05-27 23:50:48,999 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-05-27 23:51:13,254 - main - INFO - Running file threat detection cycle
+2025-05-27 23:51:16,481 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-27 23:51:31,847 - main - INFO - Received shutdown signal
+2025-05-27 23:51:31,847 - main - INFO - Stopping Auto Threat Blocker
+2025-05-27 23:51:32,486 - main - INFO - Auto Threat Blocker stopped
+2025-05-27 23:52:51,270 - main - INFO - All components initialized successfully
+2025-05-27 23:52:51,270 - main - INFO - Starting Auto Threat Blocker
+2025-05-27 23:52:51,271 - main - INFO - Running IP threat detection cycle
+2025-05-27 23:52:51,272 - main - INFO - Running file threat detection cycle
+2025-05-27 23:52:51,272 - main - INFO - Auto Threat Blocker started
+2025-05-27 23:52:51,295 - main - INFO - Processing suspicious IP: 71.13.237.17
+2025-05-27 23:52:51,296 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-05-27 23:52:52,578 - main - ERROR - Failed to block IP: 71.13.237.17
+2025-05-27 23:52:52,579 - main - INFO - Processing suspicious IP: 185.220.101.32
+2025-05-27 23:52:52,579 - main - INFO - Checking IP with AbuseIPDB: 185.220.101.32
+2025-05-27 23:52:53,820 - main - ERROR - Failed to block IP: 185.220.101.32
+2025-05-27 23:52:53,820 - main - INFO - Processing suspicious IP: 198.98.62.85
+2025-05-27 23:52:53,820 - main - INFO - Checking IP with AbuseIPDB: 198.98.62.85
+2025-05-27 23:52:54,238 - main - ERROR - Failed to block IP: 198.98.62.85
+2025-05-27 23:52:54,238 - main - INFO - Processing suspicious IP: 103.224.182.251
+2025-05-27 23:52:54,238 - main - INFO - Checking IP with AbuseIPDB: 103.224.182.251
+2025-05-27 23:52:54,432 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-27 23:52:54,930 - main - ERROR - Failed to block IP: 103.224.182.251
+2025-05-27 23:52:54,931 - main - INFO - Processing suspicious IP: 94.102.61.46
+2025-05-27 23:52:54,931 - main - INFO - Checking IP with AbuseIPDB: 94.102.61.46
+2025-05-27 23:52:55,613 - main - ERROR - Failed to block IP: 94.102.61.46
+2025-05-27 23:52:55,614 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-05-27 23:52:55,614 - main - INFO - IP 203.0.113.1 has low threat score (60), not blocking
+2025-05-27 23:52:55,614 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-05-27 23:52:55,615 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-05-27 23:52:58,784 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-05-27 23:53:01,359 - main - INFO - Received shutdown signal
+2025-05-27 23:53:01,359 - main - INFO - Stopping Auto Threat Blocker
+2025-05-27 23:53:01,786 - main - INFO - Auto Threat Blocker stopped
+2025-05-28 00:57:42,245 - main - INFO - All components initialized successfully
+2025-05-28 00:57:42,254 - main - INFO - Starting Auto Threat Blocker
+2025-05-28 00:57:42,255 - main - INFO - Running IP threat detection cycle
+2025-05-28 00:57:42,256 - main - INFO - Running file threat detection cycle
+2025-05-28 00:57:42,256 - main - INFO - Auto Threat Blocker started
+2025-05-28 00:57:43,475 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-05-28 00:57:43,475 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-05-28 00:57:43,475 - main - INFO - Processing suspicious IP: 71.13.237.17
+2025-05-28 00:57:43,475 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-05-28 00:57:44,788 - main - ERROR - Failed to block IP: 71.13.237.17
+2025-05-28 00:57:44,789 - main - INFO - Processing suspicious IP: 103.224.182.251
+2025-05-28 00:57:44,789 - main - INFO - Checking IP with AbuseIPDB: 103.224.182.251
+2025-05-28 00:57:45,462 - main - ERROR - Failed to block IP: 103.224.182.251
+2025-05-28 00:57:45,463 - main - INFO - Processing suspicious IP: 198.98.62.85
+2025-05-28 00:57:45,463 - main - INFO - Checking IP with AbuseIPDB: 198.98.62.85
+2025-05-28 00:57:45,948 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-28 00:57:46,140 - main - ERROR - Failed to block IP: 198.98.62.85
+2025-05-28 00:57:46,140 - main - INFO - Processing suspicious IP: 185.220.101.32
+2025-05-28 00:57:46,140 - main - INFO - Checking IP with AbuseIPDB: 185.220.101.32
+2025-05-28 00:57:47,088 - main - ERROR - Failed to block IP: 185.220.101.32
+2025-05-28 00:57:47,089 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-05-28 00:57:47,089 - main - INFO - IP 203.0.113.1 has low threat score (60), not blocking
+2025-05-28 00:57:47,089 - main - INFO - Processing suspicious IP: 94.102.61.46
+2025-05-28 00:57:47,089 - main - INFO - Checking IP with AbuseIPDB: 94.102.61.46
+2025-05-28 00:57:47,490 - main - ERROR - Failed to block IP: 94.102.61.46
+2025-05-28 00:57:50,762 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-05-28 00:57:53,069 - main - INFO - Received shutdown signal
+2025-05-28 00:57:53,070 - main - INFO - Stopping Auto Threat Blocker
+2025-05-28 00:57:53,951 - main - INFO - Auto Threat Blocker stopped
+2025-05-28 10:15:50,183 - main - INFO - All components initialized successfully
+2025-05-28 10:15:50,198 - main - INFO - Starting Auto Threat Blocker
+2025-05-28 10:15:50,199 - main - INFO - Running IP threat detection cycle
+2025-05-28 10:15:50,200 - main - INFO - Running file threat detection cycle
+2025-05-28 10:15:50,201 - main - INFO - Auto Threat Blocker started
+2025-05-28 10:15:50,859 - main - INFO - Processing suspicious IP: 94.102.61.46
+2025-05-28 10:15:50,860 - main - INFO - Checking IP with AbuseIPDB: 94.102.61.46
+2025-05-28 10:15:51,708 - main - ERROR - Failed to block IP: 94.102.61.46
+2025-05-28 10:15:51,708 - main - INFO - Processing suspicious IP: 71.13.237.17
+2025-05-28 10:15:51,709 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-05-28 10:15:52,986 - main - ERROR - Failed to block IP: 71.13.237.17
+2025-05-28 10:15:52,986 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-05-28 10:15:52,986 - main - INFO - IP 203.0.113.1 has low threat score (60), not blocking
+2025-05-28 10:15:52,987 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-05-28 10:15:52,987 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-05-28 10:15:52,988 - main - INFO - Processing suspicious IP: 198.98.62.85
+2025-05-28 10:15:52,988 - main - INFO - Checking IP with AbuseIPDB: 198.98.62.85
+2025-05-28 10:15:53,487 - main - ERROR - Failed to block IP: 198.98.62.85
+2025-05-28 10:15:53,488 - main - INFO - Processing suspicious IP: 185.220.101.32
+2025-05-28 10:15:53,488 - main - INFO - Checking IP with AbuseIPDB: 185.220.101.32
+2025-05-28 10:15:53,920 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-28 10:15:54,772 - main - ERROR - Failed to block IP: 185.220.101.32
+2025-05-28 10:15:54,772 - main - INFO - Processing suspicious IP: 103.224.182.251
+2025-05-28 10:15:54,773 - main - INFO - Checking IP with AbuseIPDB: 103.224.182.251
+2025-05-28 10:15:55,336 - main - ERROR - Failed to block IP: 103.224.182.251
+2025-05-28 10:15:58,484 - main - INFO - IP monitoring sleeping for 60 seconds
+2025-05-28 10:16:53,939 - main - INFO - Running file threat detection cycle
+2025-05-28 10:16:57,248 - main - INFO - File monitoring sleeping for 60 seconds
+2025-05-28 10:16:58,503 - main - INFO - Running IP threat detection cycle
+2025-05-28 10:16:58,601 - main - INFO - Processing suspicious IP: 94.102.61.46
+2025-05-28 10:16:58,601 - main - INFO - Checking IP with AbuseIPDB: 94.102.61.46
+2025-05-28 10:16:59,293 - main - ERROR - Failed to block IP: 94.102.61.46
+2025-05-28 10:16:59,293 - main - INFO - Processing suspicious IP: 71.13.237.17
+2025-05-28 10:16:59,293 - main - INFO - Checking IP with AbuseIPDB: 71.13.237.17
+2025-05-28 10:17:00,491 - main - ERROR - Failed to block IP: 71.13.237.17
+2025-05-28 10:17:00,491 - main - INFO - Processing suspicious IP: 203.0.113.1
+2025-05-28 10:17:00,491 - main - INFO - IP 203.0.113.1 has low threat score (60), not blocking
+2025-05-28 10:17:00,492 - main - WARNING - Skipping local/private IP address: 127.0.0.1
+2025-05-28 10:17:00,493 - main - INFO - Skipping IP (invalid/private/dangerous): 127.0.0.1
+2025-05-28 10:17:00,493 - main - INFO - Processing suspicious IP: 198.98.62.85
+2025-05-28 10:17:00,493 - main - INFO - Checking IP with AbuseIPDB: 198.98.62.85
+2025-05-28 10:17:00,947 - main - ERROR - Failed to block IP: 198.98.62.85
+2025-05-28 10:17:00,948 - main - INFO - Processing suspicious IP: 185.220.101.32
+2025-05-28 10:17:00,948 - main - INFO - Checking IP with AbuseIPDB: 185.220.101.32
+2025-05-28 10:17:01,712 - main - ERROR - Failed to block IP: 185.220.101.32
+2025-05-28 10:17:01,712 - main - INFO - Processing suspicious IP: 103.224.182.251
+2025-05-28 10:17:01,712 - main - INFO - Checking IP with AbuseIPDB: 103.224.182.251
+2025-05-28 10:17:02,464 - main - ERROR - Failed to block IP: 103.224.182.251
+2025-05-28 10:17:03,525 - main - INFO - Received shutdown signal
+2025-05-28 10:17:03,526 - main - INFO - Stopping Auto Threat Blocker
+2025-05-28 10:17:04,527 - main - INFO - Auto Threat Blocker stopped

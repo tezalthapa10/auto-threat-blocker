@@ -3443,3 +3443,429 @@ IP monitoring sleeping for 60 seconds
 Received shutdown signal
 Stopping Auto Threat Blocker
 Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 0 total matching documents
+Processing 0 documents
+Detected 0 unique suspicious IP addresses
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+Failed to load quarantine metadata: Expecting property name enclosed in double quotes: line 12 column 1 (char 462)
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Running file threat detection cycle
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Auto Threat Blocker started
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+Failed to load quarantine metadata: Expecting property name enclosed in double quotes: line 12 column 1 (char 462)
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Starting file scan in 2 directories
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents
+Processing 4 documents
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 203.0.113.1
+Detected potential malicious IP: 127.0.0.1
+Detected potential malicious IP: 127.0.0.1
+Detected 3 unique suspicious IP addresses
+*********************************Processing suspicious IP: 71.13.237.17 *********************************
+Checking IP with AbuseIPDB: 71.13.237.17
+AbuseIPDB confirmed malicious IP: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Blocked and stored IP 71.13.237.17 confirmed by AbuseIPDB.
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+*********************************Processing suspicious IP: 203.0.113.1 *********************************
+Checking IP with AbuseIPDB: 203.0.113.1
+Checking IP with VirusTotal: 203.0.113.1
+File monitoring sleeping for 60 seconds
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Scanning for malicious IP addresses...
+Found predefined malicious IP: 71.13.237.17
+Found predefined malicious IP: 185.220.101.32
+Found predefined malicious IP: 198.98.62.85
+Starting file scan in 2 directories
+Found predefined malicious IP: 94.102.61.46
+Found predefined malicious IP: 103.224.182.251
+Scanning directory: /home/atb/Downloads/quarantine
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents from Elasticsearch
+Processing 4 documents
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected 7 unique suspicious IP addresses
+Processing suspicious IP: 198.98.62.85
+Checking IP with AbuseIPDB: 198.98.62.85
+Attempting to block IP: 198.98.62.85
+File monitoring sleeping for 60 seconds
+Successfully blocked IP: 198.98.62.85
+{"action": "block", "ip": "198.98.62.85", "reason": "Scanner IP (Score: 88)", "timestamp": "2025-05-27T23:50:41.956792", "is_malicious": true, "event_type": "ip_block"}
+Successfully blocked malicious IP: 198.98.62.85
+{"event_type": "ip_detection", "action": "blocked", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-27T23:50:41.957310", "is_malicious": true, "source": "atb_ip_detector"}
+Error processing suspicious IP 198.98.62.85: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+Processing suspicious IP: 185.220.101.32
+Checking IP with AbuseIPDB: 185.220.101.32
+Attempting to block IP: 185.220.101.32
+Successfully blocked IP: 185.220.101.32
+{"action": "block", "ip": "185.220.101.32", "reason": "Tor_Exit IP (Score: 90)", "timestamp": "2025-05-27T23:50:43.454045", "is_malicious": true, "event_type": "ip_block"}
+Successfully blocked malicious IP: 185.220.101.32
+{"event_type": "ip_detection", "action": "blocked", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-27T23:50:43.454639", "is_malicious": true, "source": "atb_ip_detector"}
+Error processing suspicious IP 185.220.101.32: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+Processing suspicious IP: 203.0.113.1
+IP 203.0.113.1 has low threat score (60), not blocking
+{"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-27T23:50:43.455058", "is_malicious": false, "source": "atb_ip_detector"}
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+Processing suspicious IP: 71.13.237.17
+Checking IP with AbuseIPDB: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Failed to block IP: 71.13.237.17
+{"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-27T23:50:44.702598", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 94.102.61.46
+Checking IP with AbuseIPDB: 94.102.61.46
+Attempting to block IP: 94.102.61.46
+Successfully blocked IP: 94.102.61.46
+{"action": "block", "ip": "94.102.61.46", "reason": "Malware_C2 IP (Score: 92)", "timestamp": "2025-05-27T23:50:45.330830", "is_malicious": true, "event_type": "ip_block"}
+Successfully blocked malicious IP: 94.102.61.46
+{"event_type": "ip_detection", "action": "blocked", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-27T23:50:45.331203", "is_malicious": true, "source": "atb_ip_detector"}
+Error processing suspicious IP 94.102.61.46: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+Processing suspicious IP: 103.224.182.251
+Checking IP with AbuseIPDB: 103.224.182.251
+Attempting to block IP: 103.224.182.251
+Successfully blocked IP: 103.224.182.251
+{"action": "block", "ip": "103.224.182.251", "reason": "Brute_Force IP (Score: 89)", "timestamp": "2025-05-27T23:50:45.785490", "is_malicious": true, "event_type": "ip_block"}
+Successfully blocked malicious IP: 103.224.182.251
+{"event_type": "ip_detection", "action": "blocked", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-27T23:50:45.785993", "is_malicious": true, "source": "atb_ip_detector"}
+Error processing suspicious IP 103.224.182.251: 'AutoThreatBlocker' object has no attribute '_send_ip_alert'
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Scanning for malicious IP addresses...
+Starting file scan in 2 directories
+Found predefined malicious IP: 71.13.237.17
+Found predefined malicious IP: 185.220.101.32
+Scanning directory: /home/atb/Downloads/quarantine
+Found predefined malicious IP: 198.98.62.85
+Found predefined malicious IP: 94.102.61.46
+Found predefined malicious IP: 103.224.182.251
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents from Elasticsearch
+Processing 4 documents
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected 7 unique suspicious IP addresses
+Processing suspicious IP: 71.13.237.17
+Checking IP with AbuseIPDB: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Failed to block IP: 71.13.237.17
+{"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-27T23:52:52.578595", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 185.220.101.32
+Checking IP with AbuseIPDB: 185.220.101.32
+IP 185.220.101.32 is already blocked
+Failed to block IP: 185.220.101.32
+{"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-27T23:52:53.820502", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 198.98.62.85
+Checking IP with AbuseIPDB: 198.98.62.85
+IP 198.98.62.85 is already blocked
+Failed to block IP: 198.98.62.85
+{"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-27T23:52:54.238287", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 103.224.182.251
+Checking IP with AbuseIPDB: 103.224.182.251
+File monitoring sleeping for 60 seconds
+IP 103.224.182.251 is already blocked
+Failed to block IP: 103.224.182.251
+{"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-27T23:52:54.931096", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 94.102.61.46
+Checking IP with AbuseIPDB: 94.102.61.46
+IP 94.102.61.46 is already blocked
+Failed to block IP: 94.102.61.46
+{"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-27T23:52:55.614108", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 203.0.113.1
+IP 203.0.113.1 has low threat score (60), not blocking
+{"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-27T23:52:55.614758", "is_malicious": false, "source": "atb_ip_detector"}
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Scanning for malicious IP addresses...
+Found predefined malicious IP: 71.13.237.17
+Found predefined malicious IP: 185.220.101.32
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Found predefined malicious IP: 198.98.62.85
+Found predefined malicious IP: 94.102.61.46
+Found predefined malicious IP: 103.224.182.251
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents from Elasticsearch
+Processing 4 documents
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected 7 unique suspicious IP addresses
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+Processing suspicious IP: 71.13.237.17
+Checking IP with AbuseIPDB: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Failed to block IP: 71.13.237.17
+{"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-28T00:57:44.788959", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 103.224.182.251
+Checking IP with AbuseIPDB: 103.224.182.251
+IP 103.224.182.251 is already blocked
+Failed to block IP: 103.224.182.251
+{"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-28T00:57:45.463111", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 198.98.62.85
+Checking IP with AbuseIPDB: 198.98.62.85
+File monitoring sleeping for 60 seconds
+IP 198.98.62.85 is already blocked
+Failed to block IP: 198.98.62.85
+{"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-28T00:57:46.140283", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 185.220.101.32
+Checking IP with AbuseIPDB: 185.220.101.32
+IP 185.220.101.32 is already blocked
+Failed to block IP: 185.220.101.32
+{"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-28T00:57:47.088943", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 203.0.113.1
+IP 203.0.113.1 has low threat score (60), not blocking
+{"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-28T00:57:47.089466", "is_malicious": false, "source": "atb_ip_detector"}
+Processing suspicious IP: 94.102.61.46
+Checking IP with AbuseIPDB: 94.102.61.46
+IP 94.102.61.46 is already blocked
+Failed to block IP: 94.102.61.46
+{"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-28T00:57:47.490143", "is_malicious": true, "source": "atb_ip_detector"}
+IP monitoring sleeping for 60 seconds
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped
+All components initialized successfully
+Starting Auto Threat Blocker
+Running IP threat detection cycle
+Running file threat detection cycle
+Auto Threat Blocker started
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning for malicious IP addresses...
+Found predefined malicious IP: 71.13.237.17
+Found predefined malicious IP: 185.220.101.32
+Found predefined malicious IP: 198.98.62.85
+Scanning directory: /tmp
+Found predefined malicious IP: 94.102.61.46
+Found predefined malicious IP: 103.224.182.251
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Completed file scan, found 0 suspicious files
+Found 4 total matching documents from Elasticsearch
+Processing 4 documents
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected 7 unique suspicious IP addresses
+Processing suspicious IP: 94.102.61.46
+Checking IP with AbuseIPDB: 94.102.61.46
+IP 94.102.61.46 is already blocked
+Failed to block IP: 94.102.61.46
+{"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-28T10:15:51.708387", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 71.13.237.17
+Checking IP with AbuseIPDB: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Failed to block IP: 71.13.237.17
+{"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-28T10:15:52.986519", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 203.0.113.1
+IP 203.0.113.1 has low threat score (60), not blocking
+{"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-28T10:15:52.987104", "is_malicious": false, "source": "atb_ip_detector"}
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+Processing suspicious IP: 198.98.62.85
+Checking IP with AbuseIPDB: 198.98.62.85
+IP 198.98.62.85 is already blocked
+Failed to block IP: 198.98.62.85
+{"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-28T10:15:53.488002", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 185.220.101.32
+Checking IP with AbuseIPDB: 185.220.101.32
+File monitoring sleeping for 60 seconds
+IP 185.220.101.32 is already blocked
+Failed to block IP: 185.220.101.32
+{"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-28T10:15:54.772422", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 103.224.182.251
+Checking IP with AbuseIPDB: 103.224.182.251
+IP 103.224.182.251 is already blocked
+Failed to block IP: 103.224.182.251
+{"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-28T10:15:55.336759", "is_malicious": true, "source": "atb_ip_detector"}
+IP monitoring sleeping for 60 seconds
+Running file threat detection cycle
+Starting file scan in 2 directories
+Scanning directory: /home/atb/Downloads/quarantine
+Scanning directory: /tmp
+Completed file scan, found 0 suspicious files
+File monitoring sleeping for 60 seconds
+Running IP threat detection cycle
+Scanning for malicious IP addresses...
+Found predefined malicious IP: 71.13.237.17
+Found predefined malicious IP: 185.220.101.32
+Found predefined malicious IP: 198.98.62.85
+Found predefined malicious IP: 94.102.61.46
+Found predefined malicious IP: 103.224.182.251
+Connecting to Elasticsearch at http://localhost:9200/threat-logs-*/_search...
+Executing query for 'Failed password' patterns...
+Found 4 total matching documents from Elasticsearch
+Processing 4 documents
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 203.0.113.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected potential malicious IP from logs: 127.0.0.1
+Detected 7 unique suspicious IP addresses
+Processing suspicious IP: 94.102.61.46
+Checking IP with AbuseIPDB: 94.102.61.46
+IP 94.102.61.46 is already blocked
+Failed to block IP: 94.102.61.46
+{"event_type": "ip_detection", "action": "block_failed", "ip": "94.102.61.46", "threat_score": 92, "category": "malware_c2", "country": "NL", "timestamp": "2025-05-28T10:16:59.293587", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 71.13.237.17
+Checking IP with AbuseIPDB: 71.13.237.17
+IP 71.13.237.17 is already blocked
+Failed to block IP: 71.13.237.17
+{"event_type": "ip_detection", "action": "block_failed", "ip": "71.13.237.17", "threat_score": 95, "category": "brute_force", "country": "US", "timestamp": "2025-05-28T10:17:00.491186", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 203.0.113.1
+IP 203.0.113.1 has low threat score (60), not blocking
+{"event_type": "ip_detection", "action": "monitored", "ip": "203.0.113.1", "threat_score": 60, "category": "failed_login", "country": "unknown", "timestamp": "2025-05-28T10:17:00.491969", "is_malicious": false, "source": "atb_ip_detector"}
+Skipping local/private IP address: 127.0.0.1
+Skipping IP (invalid/private/dangerous): 127.0.0.1
+Processing suspicious IP: 198.98.62.85
+Checking IP with AbuseIPDB: 198.98.62.85
+IP 198.98.62.85 is already blocked
+Failed to block IP: 198.98.62.85
+{"event_type": "ip_detection", "action": "block_failed", "ip": "198.98.62.85", "threat_score": 88, "category": "scanner", "country": "US", "timestamp": "2025-05-28T10:17:00.947632", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 185.220.101.32
+Checking IP with AbuseIPDB: 185.220.101.32
+IP 185.220.101.32 is already blocked
+Failed to block IP: 185.220.101.32
+{"event_type": "ip_detection", "action": "block_failed", "ip": "185.220.101.32", "threat_score": 90, "category": "tor_exit", "country": "DE", "timestamp": "2025-05-28T10:17:01.712368", "is_malicious": true, "source": "atb_ip_detector"}
+Processing suspicious IP: 103.224.182.251
+Checking IP with AbuseIPDB: 103.224.182.251
+IP 103.224.182.251 is already blocked
+Failed to block IP: 103.224.182.251
+{"event_type": "ip_detection", "action": "block_failed", "ip": "103.224.182.251", "threat_score": 89, "category": "brute_force", "country": "IN", "timestamp": "2025-05-28T10:17:02.464962", "is_malicious": true, "source": "atb_ip_detector"}
+Received shutdown signal
+Stopping Auto Threat Blocker
+Auto Threat Blocker stopped

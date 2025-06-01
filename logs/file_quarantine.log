@@ -16,3 +16,5 @@
 2025-04-29 18:32:42,124 - file_quarantine - INFO - Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745930862_5b2510eb_testfile.sh
 2025-04-29 18:48:05,484 - file_quarantine - INFO - {"action": "quarantine", "file_path": "/home/atb/Downloads/quarantine/testfile.sh", "hash": "5b2510eb9298940bf84a162691c21e313b6077af1ba9608300452604362e6c2f", "reason": "Flagged as suspicious by pattern matching", "timestamp": "2025-04-29T18:48:05.484183", "is_malicious": true, "event_type": "file_quarantine"}
 2025-04-29 18:48:05,485 - file_quarantine - INFO - Quarantined file: /home/atb/Downloads/quarantine/testfile.sh -> /home/atb/auto-threat-blocker/quarantine/1745931785_5b2510eb_testfile.sh
+2025-04-30 00:41:51,871 - file_quarantine - ERROR - Failed to load quarantine metadata: Expecting property name enclosed in double quotes: line 12 column 1 (char 462)
+2025-05-27 23:42:13,218 - file_quarantine - ERROR - Failed to load quarantine metadata: Expecting property name enclosed in double quotes: line 12 column 1 (char 462)
